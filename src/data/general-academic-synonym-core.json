@@ -4,9 +4,10 @@
     "lemma": "show",
     "pos": "verb",
     "replacements": [
-      { "lemma": "indicate", "risk": "Safe", "sections": ["General", "Findings", "Discussion"], "explanation": "Academic and cautious for results." },
-      { "lemma": "suggest", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Useful when evidence is interpretive or qualitative." },
-      { "lemma": "demonstrate", "risk": "Review carefully", "sections": ["Findings"], "explanation": "Stronger claim; use only with direct evidence." }
+      { "lemma": "indicate", "pos": "verb", "risk": "Safe", "sections": ["General", "Findings", "Discussion"], "explanation": "Academic and cautious for results." },
+      { "lemma": "suggest", "pos": "verb", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Useful when evidence is interpretive or qualitative." },
+      { "lemma": "illustrate", "pos": "verb", "risk": "Safe", "sections": ["General", "Findings"], "explanation": "Useful for making evidence clearer without changing claim strength." },
+      { "lemma": "demonstrate", "pos": "verb", "risk": "Review carefully", "sections": ["Findings"], "explanation": "Stronger claim; use only with direct evidence." }
     ]
   },
   {
@@ -14,8 +15,8 @@
     "lemma": "important",
     "pos": "adjective",
     "replacements": [
-      { "lemma": "significant", "risk": "Moderate", "sections": ["General", "Discussion"], "explanation": "Academic, but avoid if it may imply statistical significance." },
-      { "lemma": "central", "risk": "Safe", "sections": ["Literature", "Discussion"], "explanation": "Signals relevance without overclaiming." }
+      { "lemma": "significant", "pos": "adjective", "risk": "Moderate", "sections": ["General", "Discussion"], "explanation": "Academic, but avoid if it may imply statistical significance." },
+      { "lemma": "central", "pos": "adjective", "risk": "Safe", "sections": ["Literature", "Discussion"], "explanation": "Signals relevance without overclaiming." }
     ]
   },
   {
@@ -23,8 +24,8 @@
     "lemma": "big",
     "pos": "adjective",
     "replacements": [
-      { "lemma": "substantial", "risk": "Safe", "sections": ["General", "Findings"], "explanation": "More precise academic adjective." },
-      { "lemma": "considerable", "risk": "Safe", "sections": ["Discussion"], "explanation": "Suitable for measured emphasis." }
+      { "lemma": "substantial", "pos": "adjective", "risk": "Safe", "sections": ["General", "Findings"], "explanation": "More precise academic adjective." },
+      { "lemma": "considerable", "pos": "adjective", "risk": "Safe", "sections": ["Discussion"], "explanation": "Suitable for measured emphasis." }
     ]
   },
   {
@@ -32,8 +33,75 @@
     "lemma": "use",
     "pos": "verb",
     "replacements": [
-      { "lemma": "employ", "risk": "Safe", "sections": ["Method"], "explanation": "Common in methodology descriptions." },
-      { "lemma": "apply", "risk": "Safe", "sections": ["Method", "Findings"], "explanation": "Good fit for tools, frameworks, and procedures." }
+      { "lemma": "employ", "pos": "verb", "risk": "Safe", "sections": ["Method"], "explanation": "Common in methodology descriptions." },
+      { "lemma": "apply", "pos": "verb", "risk": "Safe", "sections": ["Method", "Findings"], "explanation": "Good fit for tools, frameworks, and procedures." }
+    ]
+  },
+  {
+    "id": "syn-analyze",
+    "lemma": "analyze",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "examine", "pos": "verb", "risk": "Safe", "sections": ["General", "Method", "Findings"], "explanation": "Academic verb with the same grammatical role." },
+      { "lemma": "evaluate", "pos": "verb", "risk": "Moderate", "sections": ["General", "Method"], "explanation": "Use when assessment is intended." },
+      { "lemma": "interpret", "pos": "verb", "risk": "Moderate", "sections": ["Findings", "Discussion"], "explanation": "Use when meaning-making is intended." }
+    ]
+  },
+  {
+    "id": "syn-analyse",
+    "lemma": "analyse",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "examine", "pos": "verb", "risk": "Safe", "sections": ["General", "Method", "Findings"], "explanation": "Academic verb with the same grammatical role." },
+      { "lemma": "evaluate", "pos": "verb", "risk": "Moderate", "sections": ["General", "Method"], "explanation": "Use when assessment is intended." },
+      { "lemma": "interpret", "pos": "verb", "risk": "Moderate", "sections": ["Findings", "Discussion"], "explanation": "Use when meaning-making is intended." }
+    ]
+  },
+  {
+    "id": "syn-complete",
+    "lemma": "complete",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "finish", "pos": "verb", "risk": "Safe", "sections": ["General"], "explanation": "Preserves the verb form." },
+      { "lemma": "conduct", "pos": "verb", "risk": "Moderate", "sections": ["Method"], "explanation": "Use for studies, interviews, or procedures." },
+      { "lemma": "carry out", "pos": "verb", "risk": "Moderate", "sections": ["Method"], "explanation": "Phrase verb replacement; preserves tense when used as a phrase." }
+    ]
+  },
+  {
+    "id": "syn-finding",
+    "lemma": "finding",
+    "pos": "noun",
+    "replacements": [
+      { "lemma": "result", "pos": "noun", "risk": "Safe", "sections": ["General", "Findings", "Discussion"], "explanation": "Academic noun replacement preserving number." }
+    ]
+  },
+  {
+    "id": "syn-analysis",
+    "lemma": "analysis",
+    "pos": "noun",
+    "replacements": [
+      { "lemma": "interpretation", "pos": "noun", "risk": "Moderate", "sections": ["General", "Discussion"], "explanation": "Noun replacement; use when interpretation is meant." },
+      { "lemma": "examination", "pos": "noun", "risk": "Safe", "sections": ["General", "Method"], "explanation": "Noun replacement preserving grammatical role." }
+    ]
+  },
+  {
+    "id": "syn-significant",
+    "lemma": "significant",
+    "pos": "adjective",
+    "replacements": [
+      { "lemma": "important", "pos": "adjective", "risk": "Safe", "sections": ["General", "Discussion"], "explanation": "Clear adjective replacement." },
+      { "lemma": "meaningful", "pos": "adjective", "risk": "Moderate", "sections": ["Discussion"], "explanation": "Use when interpretive importance is intended." },
+      { "lemma": "substantial", "pos": "adjective", "risk": "Moderate", "sections": ["Findings", "Discussion"], "explanation": "Use only when the evidence supports magnitude." }
+    ]
+  },
+  {
+    "id": "syn-significantly",
+    "lemma": "significantly",
+    "pos": "adverb",
+    "replacements": [
+      { "lemma": "substantial", "pos": "adverb", "risk": "Moderate", "sections": ["General", "Findings"], "explanation": "Adverb form is generated from the adjective lemma." },
+      { "lemma": "meaningful", "pos": "adverb", "risk": "Moderate", "sections": ["Discussion"], "explanation": "Use when interpretive importance is intended." },
+      { "lemma": "considerable", "pos": "adverb", "risk": "Moderate", "sections": ["General"], "explanation": "Adverb form is generated from the adjective lemma." }
     ]
   }
 ]

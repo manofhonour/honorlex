@@ -13,7 +13,7 @@ function smoke() {
   const { resources, health } = loadResources();
   const result = analyzeText({ text: "These findings show that the results prove the point.", focus: "General", resources });
   assert.ok(result.suggestions.length > 0);
-  assert.equal(health.counts.synonyms, 4);
+  assert.equal(health.counts.synonyms, 11);
 }
 
 const tests = [
