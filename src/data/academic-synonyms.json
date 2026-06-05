@@ -1,0 +1,35 @@
+{
+  "show": {
+    "pos": "verb",
+    "lemma": "show",
+    "replacements": [
+      { "lemma": "indicate", "risk": "Safe", "focus": ["General", "Findings", "Discussion"], "explanation": "Academic and cautious for results." },
+      { "lemma": "suggest", "risk": "Safe", "focus": ["Findings", "Discussion"], "explanation": "Useful when evidence is interpretive or qualitative." },
+      { "lemma": "demonstrate", "risk": "Review carefully", "focus": ["Findings"], "explanation": "Stronger claim; use only with direct evidence." }
+    ]
+  },
+  "important": {
+    "pos": "adjective",
+    "lemma": "important",
+    "replacements": [
+      { "lemma": "significant", "risk": "Moderate", "focus": ["General", "Discussion"], "explanation": "Academic, but avoid if it may imply statistical significance." },
+      { "lemma": "central", "risk": "Safe", "focus": ["Literature", "Discussion"], "explanation": "Signals relevance without overclaiming." }
+    ]
+  },
+  "big": {
+    "pos": "adjective",
+    "lemma": "big",
+    "replacements": [
+      { "lemma": "substantial", "risk": "Safe", "focus": ["General", "Findings"], "explanation": "More precise academic adjective." },
+      { "lemma": "considerable", "risk": "Safe", "focus": ["Discussion"], "explanation": "Suitable for measured emphasis." }
+    ]
+  },
+  "use": {
+    "pos": "verb",
+    "lemma": "use",
+    "replacements": [
+      { "lemma": "employ", "risk": "Safe", "focus": ["Method"], "explanation": "Common in methodology descriptions." },
+      { "lemma": "apply", "risk": "Safe", "focus": ["Method", "Findings"], "explanation": "Good fit for tools, frameworks, and procedures." }
+    ]
+  }
+}

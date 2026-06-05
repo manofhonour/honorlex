@@ -1,0 +1,27 @@
+{
+  "exact": [
+    "CDA",
+    "CLA",
+    "ELT",
+    "EFL",
+    "L1",
+    "L2",
+    "APA 7",
+    "TR Dizin",
+    "TİK",
+    "TIK",
+    "pre-test",
+    "post-test"
+  ],
+  "patterns": [
+    { "label": "Citation", "source": "\\([A-Z][A-Za-zÇĞİÖŞÜçğıöşü'’.-]+(?:\\s+(?:&|and)\\s+[A-Z][A-Za-zÇĞİÖŞÜçğıöşü'’.-]+)?(?:,\\s*\\d{4}[a-z]?)?(?:,\\s*p+\\.\\s*\\d+)?\\)" },
+    { "label": "Year", "source": "\\b(?:19|20)\\d{2}[a-z]?\\b" },
+    { "label": "Number", "source": "\\b\\d+(?:[.,]\\d+)?%?\\b" },
+    { "label": "Quotation", "source": "\"[^\"]+\"|'[^']+'|“[^”]+”|‘[^’]+’" },
+    { "label": "Participant code", "source": "\\b(?:P|S|T|Participant|Student|Teacher)[-\\s]?\\d{1,3}\\b" },
+    { "label": "p value", "source": "\\bp\\s*[<=>]\\s*\\.?\\d+\\b" },
+    { "label": "Statistic", "source": "\\b(?:t|F|r|χ2|χ²|df|SD|M|N|n)\\s*\\(?\\d*\\)?\\s*=\\s*-?\\d+(?:\\.\\d+)?\\b" },
+    { "label": "Ethics approval", "source": "\\b(?:Ethics|IRB|Approval|Protocol)\\s*(?:No\\.?|Number|ID)?\\s*[:#-]?\\s*[A-Z0-9/-]{3,}\\b" },
+    { "label": "Institution name", "source": "\\b[A-ZÇĞİÖŞÜ][A-Za-zÇĞİÖŞÜçğıöşü&'’.-]+\\s+(?:University|School|Institute|Ministry|Department|Faculty)\\b" }
+  ]
+}
