@@ -1,5 +1,1133 @@
 [
-  { "id": "cw-prove", "pattern": "\\bprove(?:s|d|n|ing)?\\b", "replacement": "suggests", "risk": "Review carefully", "explanation": "Proof is rarely appropriate in thesis discussion unless the design establishes it." },
-  { "id": "cw-clearly-shows", "pattern": "\\bclearly shows\\b", "replacement": "suggests", "risk": "Moderate", "explanation": "Clearly shows may overstate the strength of evidence." },
-  { "id": "cw-very-important", "pattern": "\\bvery important\\b", "replacement": "important", "risk": "Safe", "explanation": "Remove intensifier for a more controlled academic tone." }
+  {
+    "id": "cw-001-this-proves-that",
+    "risky_expression": "this proves that",
+    "problem_type": "overclaiming",
+    "safe_replacements": [
+      "this suggests that",
+      "this may indicate that",
+      "this can be interpreted as"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Proof is rarely appropriate in thesis writing unless the design establishes certainty.",
+    "example_before": "This proves that translanguaging improves learning.",
+    "example_after": "This suggests that translanguaging may support learning.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-002-the-results-prove",
+    "risky_expression": "the results prove",
+    "problem_type": "overclaiming",
+    "safe_replacements": [
+      "the results indicate",
+      "the findings suggest",
+      "the results may suggest"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid presenting results as proof in social science contexts.",
+    "example_before": "The results prove the point.",
+    "example_after": "The results indicate the point.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-003-this-clearly-proves",
+    "risky_expression": "this clearly proves",
+    "problem_type": "overclaiming",
+    "safe_replacements": [
+      "this appears to suggest",
+      "this may indicate",
+      "the evidence points to"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Clearly proves combines certainty and proof.",
+    "example_before": "This clearly proves the effect.",
+    "example_after": "This appears to suggest an effect.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-004-this-demonstrates-beyond-doubt",
+    "risky_expression": "this demonstrates beyond doubt",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "this suggests",
+      "this provides evidence that",
+      "this may support"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Beyond doubt is too absolute for most academic claims.",
+    "example_before": "This demonstrates beyond doubt that the approach works.",
+    "example_after": "This may support the interpretation that the approach works.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-005-this-confirms-that",
+    "risky_expression": "this confirms that",
+    "problem_type": "overclaiming",
+    "safe_replacements": [
+      "this supports the view that",
+      "this may indicate that",
+      "this finding may support"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Confirm can overstate evidence unless the design directly tests confirmation.",
+    "example_before": "This confirms that teachers prefer L1 use.",
+    "example_after": "This may indicate that teachers prefer L1 use.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-006-this-establishes-that",
+    "risky_expression": "this establishes that",
+    "problem_type": "overclaiming",
+    "safe_replacements": [
+      "this suggests that",
+      "this may support the interpretation that",
+      "the evidence points to"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Establishes can overstate certainty.",
+    "example_before": "This establishes that motivation increased.",
+    "example_after": "This suggests that motivation may have increased.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-007-this-shows-conclusively",
+    "risky_expression": "this shows conclusively",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "this suggests",
+      "this indicates",
+      "this may show"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Conclusive language is usually too strong.",
+    "example_before": "This shows conclusively that the method is effective.",
+    "example_after": "This suggests that the method may be effective.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-008-it-is-obvious-that",
+    "risky_expression": "it is obvious that",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "it appears that",
+      "the evidence suggests that",
+      "it may be argued that"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Obvious can sound unsupported and dismissive.",
+    "example_before": "It is obvious that students benefited.",
+    "example_after": "The evidence suggests that students may have benefited.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-009-it-is-clear-that",
+    "risky_expression": "it is clear that",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "it appears that",
+      "the findings suggest that",
+      "the results indicate that"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Clear that may overstate interpretation.",
+    "example_before": "It is clear that teachers changed their practice.",
+    "example_after": "The findings suggest that teachers may have changed their practice.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-010-without-doubt",
+    "risky_expression": "without doubt",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "with some caution",
+      "based on the available evidence",
+      "to some extent"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid absolute certainty unless warranted.",
+    "example_before": "Without doubt, the intervention worked.",
+    "example_after": "Based on the available evidence, the intervention may have worked.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-011-undoubtedly",
+    "risky_expression": "undoubtedly",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "arguably",
+      "possibly",
+      "based on the findings"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Undoubtedly signals excessive certainty.",
+    "example_before": "Undoubtedly, L1 use improved comprehension.",
+    "example_after": "The findings suggest that L1 use may have supported comprehension.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-012-definitely",
+    "risky_expression": "definitely",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "likely",
+      "possibly",
+      "appears to"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Definitely is too absolute for cautious academic prose.",
+    "example_before": "This definitely influenced participation.",
+    "example_after": "This appears to have influenced participation.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-013-certainly",
+    "risky_expression": "certainly",
+    "problem_type": "excessive certainty",
+    "safe_replacements": [
+      "likely",
+      "arguably",
+      "to some extent"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Certainly may overstate interpretation.",
+    "example_before": "This certainly explains the pattern.",
+    "example_after": "This may help explain the pattern.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-014-all-teachers",
+    "risky_expression": "all teachers",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "many teachers",
+      "some teachers",
+      "the participating teachers"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid generalizing beyond the sample.",
+    "example_before": "All teachers supported translanguaging.",
+    "example_after": "The participating teachers supported translanguaging.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-015-all-students",
+    "risky_expression": "all students",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "many students",
+      "some students",
+      "the students in this study"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid generalizing beyond the sample.",
+    "example_before": "All students improved.",
+    "example_after": "The students in this study appeared to improve.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-016-everyone",
+    "risky_expression": "everyone",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "many participants",
+      "some participants",
+      "the participants in this study"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Everyone usually overgeneralizes.",
+    "example_before": "Everyone agreed.",
+    "example_after": "Many participants agreed.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-017-no-one",
+    "risky_expression": "no one",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "few participants",
+      "none of the participants in this sample",
+      "no participating teacher"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "No one can overgeneralize unless sample scope is explicit.",
+    "example_before": "No one disagreed.",
+    "example_after": "Few participants disagreed.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-018-always",
+    "risky_expression": "always",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "often",
+      "frequently",
+      "tended to"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Always overgeneralizes repeated behavior.",
+    "example_before": "Teachers always used L1.",
+    "example_after": "Teachers often used L1.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-019-never",
+    "risky_expression": "never",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "rarely",
+      "seldom",
+      "did not appear to"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Never overgeneralizes repeated behavior.",
+    "example_before": "Students never used English.",
+    "example_after": "Students rarely used English.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-020-in-every-case",
+    "risky_expression": "in every case",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "in many cases",
+      "in some cases",
+      "in the cases examined"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid universal scope.",
+    "example_before": "In every case, students preferred Turkish.",
+    "example_after": "In many cases, students preferred Turkish.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-021-in-all-contexts",
+    "risky_expression": "in all contexts",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "in some contexts",
+      "in the contexts examined",
+      "in many contexts"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid universal context claims.",
+    "example_before": "This works in all contexts.",
+    "example_after": "This may work in some contexts.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-022-teachers-always",
+    "risky_expression": "teachers always",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "teachers often",
+      "teachers tended to",
+      "the participating teachers often"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid universal behavior claims.",
+    "example_before": "Teachers always translated instructions.",
+    "example_after": "Teachers often translated instructions.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-023-students-never",
+    "risky_expression": "students never",
+    "problem_type": "overgeneralization",
+    "safe_replacements": [
+      "students rarely",
+      "students did not appear to",
+      "the participating students rarely"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Avoid universal behavior claims.",
+    "example_before": "Students never used L2.",
+    "example_after": "Students rarely used L2.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-024-causes",
+    "risky_expression": "causes",
+    "problem_type": "unsupported causality",
+    "safe_replacements": [
+      "may contribute to",
+      "may be associated with",
+      "appears to influence"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Causal language requires design support.",
+    "example_before": "L1 use causes better participation.",
+    "example_after": "L1 use may be associated with better participation.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-025-caused",
+    "risky_expression": "caused",
+    "problem_type": "unsupported causality",
+    "safe_replacements": [
+      "may have contributed to",
+      "was associated with",
+      "appeared to influence"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Causal language requires design support.",
+    "example_before": "The activity caused improvement.",
+    "example_after": "The activity may have contributed to improvement.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-026-leads-to",
+    "risky_expression": "leads to",
+    "problem_type": "causal overclaim",
+    "safe_replacements": [
+      "may lead to",
+      "may be associated with",
+      "may contribute to"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Leads to can imply causality.",
+    "example_before": "The method leads to improvement.",
+    "example_after": "The method may contribute to improvement.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-027-makes-students",
+    "risky_expression": "makes students",
+    "problem_type": "causal overclaim",
+    "safe_replacements": [
+      "may help students",
+      "was reported to support students",
+      "may encourage students"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Makes students can overstate causal force.",
+    "example_before": "The task makes students participate.",
+    "example_after": "The task may encourage students to participate.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-028-ensures",
+    "risky_expression": "ensures",
+    "problem_type": "unsupported causality",
+    "safe_replacements": [
+      "may support",
+      "can help",
+      "may contribute to"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Ensures is too absolute.",
+    "example_before": "Feedback ensures improvement.",
+    "example_after": "Feedback may support improvement.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-029-guarantees",
+    "risky_expression": "guarantees",
+    "problem_type": "unsupported causality",
+    "safe_replacements": [
+      "may support",
+      "can contribute to",
+      "may increase the likelihood of"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Guarantees is too absolute.",
+    "example_before": "Training guarantees success.",
+    "example_after": "Training may contribute to success.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-030-results-in",
+    "risky_expression": "results in",
+    "problem_type": "causal overclaim",
+    "safe_replacements": [
+      "may result in",
+      "may be linked to",
+      "may contribute to"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Results in can overstate causality.",
+    "example_before": "The intervention results in better scores.",
+    "example_after": "The intervention may be linked to better scores.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-031-has-a-big-effect-on",
+    "risky_expression": "has a big effect on",
+    "problem_type": "informal intensity",
+    "safe_replacements": [
+      "may have a substantial effect on",
+      "may be associated with",
+      "appears to influence"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Big effect is informal and may overstate impact.",
+    "example_before": "The method has a big effect on motivation.",
+    "example_after": "The method may be associated with motivation.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-032-directly-improves",
+    "risky_expression": "directly improves",
+    "problem_type": "unsupported causality",
+    "safe_replacements": [
+      "may improve",
+      "may support",
+      "was perceived as supporting"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Directly improves implies causality.",
+    "example_before": "Translanguaging directly improves comprehension.",
+    "example_after": "Translanguaging may support comprehension.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "cw-033-very-important",
+    "risky_expression": "very important",
+    "problem_type": "informal intensity",
+    "safe_replacements": [
+      "significant",
+      "particularly important",
+      "central"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Very important can be tightened.",
+    "example_before": "This is very important.",
+    "example_after": "This is particularly important.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-034-really-important",
+    "risky_expression": "really important",
+    "problem_type": "informal intensity",
+    "safe_replacements": [
+      "particularly important",
+      "significant",
+      "central"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Really is informal.",
+    "example_before": "This is really important.",
+    "example_after": "This is particularly important.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-035-big-effect",
+    "risky_expression": "big effect",
+    "problem_type": "informal intensity",
+    "safe_replacements": [
+      "substantial effect",
+      "possible effect",
+      "considerable effect"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Big is informal.",
+    "example_before": "This had a big effect.",
+    "example_after": "This may have had a substantial effect.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-036-a-lot-of",
+    "risky_expression": "a lot of",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "many",
+      "a large number of",
+      "substantial"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Use a more precise academic quantifier.",
+    "example_before": "A lot of teachers agreed.",
+    "example_after": "Many teachers agreed.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-037-lots-of",
+    "risky_expression": "lots of",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "many",
+      "a large number of",
+      "several"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Lots of is informal.",
+    "example_before": "Lots of students participated.",
+    "example_after": "Many students participated.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-038-huge",
+    "risky_expression": "huge",
+    "problem_type": "informal intensity",
+    "safe_replacements": [
+      "substantial",
+      "considerable",
+      "important"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Huge is often informal or overstated.",
+    "example_before": "This was a huge limitation.",
+    "example_after": "This was a substantial limitation.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-039-great",
+    "risky_expression": "great",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "important",
+      "beneficial",
+      "substantial"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Great is vague in academic writing.",
+    "example_before": "The activity had a great benefit.",
+    "example_after": "The activity had a substantial benefit.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-040-good",
+    "risky_expression": "good",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "beneficial",
+      "appropriate",
+      "useful"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Good is often vague.",
+    "example_before": "This is a good strategy.",
+    "example_after": "This is a useful strategy.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-041-bad",
+    "risky_expression": "bad",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "problematic",
+      "limited",
+      "ineffective"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Bad is informal and vague.",
+    "example_before": "This was a bad outcome.",
+    "example_after": "This was a problematic outcome.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-042-thing",
+    "risky_expression": "thing",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "issue",
+      "aspect",
+      "factor"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Thing is vague.",
+    "example_before": "This thing affected participation.",
+    "example_after": "This factor affected participation.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-043-stuff",
+    "risky_expression": "stuff",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "materials",
+      "content",
+      "aspects"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Stuff is informal.",
+    "example_before": "The teacher used different stuff.",
+    "example_after": "The teacher used different materials.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-044-get-better",
+    "risky_expression": "get better",
+    "problem_type": "weak academic wording",
+    "safe_replacements": [
+      "improve",
+      "develop",
+      "show improvement"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Use a more academic verb.",
+    "example_before": "Students get better over time.",
+    "example_after": "Students improve over time.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-045-helps-a-lot",
+    "risky_expression": "helps a lot",
+    "problem_type": "informal intensity",
+    "safe_replacements": [
+      "supports",
+      "may support",
+      "provides considerable support"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "Helps a lot is informal.",
+    "example_before": "The activity helps a lot.",
+    "example_after": "The activity may support learning.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-046-delve-into",
+    "risky_expression": "delve into",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "examine",
+      "discuss",
+      "analyze"
+    ],
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "explanation": "This phrase can sound formulaic or ornate.",
+    "example_before": "This chapter delves into the literature.",
+    "example_after": "This chapter examines the literature.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-047-dive-into",
+    "risky_expression": "dive into",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "examine",
+      "discuss",
+      "analyze"
+    ],
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "explanation": "This phrase is informal and can sound AI-like.",
+    "example_before": "The study dives into teacher beliefs.",
+    "example_after": "The study examines teacher beliefs.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-048-sheds-light-on",
+    "risky_expression": "sheds light on",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "examines",
+      "clarifies",
+      "provides insight into"
+    ],
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "explanation": "This phrase can sound formulaic.",
+    "example_before": "The study sheds light on classroom discourse.",
+    "example_after": "The study examines classroom discourse.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-049-robust-insights",
+    "risky_expression": "robust insights",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "useful insights",
+      "important insights",
+      "evidence"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Robust insights can sound inflated.",
+    "example_before": "The study provides robust insights.",
+    "example_after": "The study provides useful insights.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-050-pivotal-role",
+    "risky_expression": "pivotal role",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "important role",
+      "central role",
+      "possible role"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Pivotal can overstate importance.",
+    "example_before": "L1 played a pivotal role.",
+    "example_after": "L1 appeared to play an important role.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-051-plays-a-crucial-role",
+    "risky_expression": "plays a crucial role",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "plays an important role",
+      "may play a role",
+      "appears to play a role"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Crucial role can overstate evidence.",
+    "example_before": "Language plays a crucial role.",
+    "example_after": "Language may play an important role.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-052-in-today-s-rapidly-changing-world",
+    "risky_expression": "in today's rapidly changing world",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "in contemporary contexts",
+      "in current educational contexts",
+      "in recent years"
+    ],
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "explanation": "This phrase is broad and formulaic.",
+    "example_before": "In today's rapidly changing world, English is important.",
+    "example_after": "In contemporary educational contexts, English remains important.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-053-it-is-worth-mentioning-that",
+    "risky_expression": "it is worth mentioning that",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "it should be noted that",
+      "notably",
+      "the study also indicates that"
+    ],
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion",
+      "TR Dizin",
+      "APA/Style"
+    ],
+    "explanation": "This phrase can be wordy.",
+    "example_before": "It is worth mentioning that the sample was small.",
+    "example_after": "It should be noted that the sample was small.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-054-taken-together",
+    "risky_expression": "taken together",
+    "problem_type": "AI-sounding phrase",
+    "safe_replacements": [
+      "overall",
+      "considered together",
+      "when considered together"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Acceptable in moderation, but can sound formulaic if overused.",
+    "example_before": "Taken together, the findings are useful.",
+    "example_after": "Overall, the findings are useful.",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "cw-055-this-implies-that",
+    "risky_expression": "this implies that",
+    "problem_type": "unsupported implication",
+    "safe_replacements": [
+      "this may imply that",
+      "this suggests that",
+      "this could indicate that"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Implication should be cautious unless directly supported.",
+    "example_before": "This implies that teachers reject English.",
+    "example_after": "This may imply that teachers were selective.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-056-this-means-that",
+    "risky_expression": "this means that",
+    "problem_type": "unsupported implication",
+    "safe_replacements": [
+      "this may mean that",
+      "this suggests that",
+      "this can be interpreted as"
+    ],
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "Means that can overstate interpretation.",
+    "example_before": "This means that students prefer Turkish.",
+    "example_after": "This may mean that students preferred Turkish in this context.",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": "cw-057-the-sample-proves",
+    "risky_expression": "the sample proves",
+    "problem_type": "sample overreach",
+    "safe_replacements": [
+      "the sample suggests",
+      "the sample may indicate",
+      "the sample provides evidence that"
+    ],
+    "best_sections": [
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "explanation": "A sample rarely proves a general claim.",
+    "example_before": "The sample proves that teachers agree.",
+    "example_after": "The sample suggests that teachers in this study agreed.",
+    "risk_level": "Review carefully"
+  }
 ]

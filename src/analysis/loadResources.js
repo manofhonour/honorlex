@@ -222,8 +222,16 @@ function validateCautiousWordingBank(value) {
   if (!Array.isArray(value)) return fail("cautiousWordingBank must be an array.");
   const warnings = validateUniqueIds(value, "cautiousWordingBank");
   for (const item of value) {
-    requireFields(item, ["id", "pattern", "replacement", "risk", "explanation"], "cautiousWordingBank", warnings);
-    validateAllowed(item.risk, ALLOWED_RISK_LEVELS, `${item.id}.risk`, warnings);
+    if (item.risky_expression) {
+      requireFields(item, ["id", "risky_expression", "problem_type", "safe_replacements", "best_sections", "explanation", "example_before", "example_after", "risk_level"], "cautiousWordingBank", warnings);
+      validateAllowed(item.risk_level, ALLOWED_RISK_LEVELS, `${item.id}.risk_level`, warnings);
+      validateSections(item.best_sections || [], `${item.id}.best_sections`, warnings);
+      validateAllowed(item.problem_type, ["overclaiming", "unsupported causality", "overgeneralization", "excessive certainty", "informal intensity", "weak academic wording", "AI-sounding phrase", "unsupported implication", "causal overclaim", "sample overreach"], `${item.id}.problem_type`, warnings);
+      if (!Array.isArray(item.safe_replacements)) warnings.push(`${item.id}.safe_replacements must be an array.`);
+    } else {
+      requireFields(item, ["id", "pattern", "replacement", "risk", "explanation"], "cautiousWordingBank", warnings);
+      validateAllowed(item.risk, ALLOWED_RISK_LEVELS, `${item.id}.risk`, warnings);
+    }
   }
   return ok(warnings);
 }
@@ -284,12 +292,37 @@ function normalizeResources(resources) {
     reportingVerbsByLemma: Object.fromEntries(reportingVerbBank.map((entry) => [entry.verb, entry.replacements])),
     reportingVerbsByForm: createReportingVerbFormMap(reportingVerbBank),
     connectorBank: normalizeConnectorBank(resources.connectorBank),
-    cautiousWordingBank: resources.cautiousWordingBank,
+    cautiousWordingBank: resources.cautiousWordingBank.map(normalizeCautiousWordingRule),
     domainLexicon: resources.domainLexicon,
     phrasePatterns: resources.phrasePatterns,
     rewriteRules: resources.rewriteRules,
     personalBlacklistDefault: resources.personalBlacklistDefault
   };
+}
+
+function normalizeCautiousWordingRule(item) {
+  if (!item.risky_expression) return item;
+  return {
+    ...item,
+    pattern: buildCautiousPattern(item.risky_expression),
+    replacements: item.safe_replacements,
+    replacement: item.safe_replacements[0],
+    risk: item.risk_level,
+    best_sections: item.best_sections,
+    meta: item.problem_type
+  };
+}
+
+function buildCautiousPattern(expression) {
+  const escaped = escapeRegExp(expression);
+  if (expression === "delve into") return "\\bdelves?\\s+into\\b";
+  if (expression === "dive into") return "\\bdives?\\s+into\\b";
+  if (expression === "shed light on" || expression === "sheds light on") return "\\bsheds?\\s+light\\s+on\\b";
+  return `\\b${escaped}\\b`;
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function normalizeConnectorBank(bank) {

@@ -89,6 +89,7 @@ function adjustCandidateForContext(candidate, text, entry) {
 }
 
 function isForbiddenStrengthening(source, replacement) {
+  if (replacement === "prove" && source !== "prove") return true;
   return FORBIDDEN_STRENGTHENING.has(`${source}->${replacement}`);
 }
 
