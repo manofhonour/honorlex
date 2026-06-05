@@ -148,8 +148,13 @@ function validateCollocationBank(value) {
   }
   const warnings = [...validateUniqueIds(value.good, "collocationBank.good"), ...validateUniqueIds(value.blocked, "collocationBank.blocked")];
   for (const item of [...value.good, ...value.blocked]) {
-    requireFields(item, ["id", "risk", "explanation"], "collocationBank", warnings);
-    validateAllowed(item.risk, ALLOWED_RISK_LEVELS, `${item.id}.risk`, warnings);
+    requireFields(item, ["id", "collocation"], "collocationBank", warnings);
+    const risk = item.risk_level || item.risk;
+    if (!risk) warnings.push(`${item.id}: missing required field "risk_level".`);
+    validateAllowed(risk, ALLOWED_RISK_LEVELS, `${item.id}.risk_level`, warnings);
+    if (item.best_sections) validateSections(item.best_sections, `${item.id}.best_sections`, warnings);
+    if (!item.pattern_type) warnings.push(`${item.id}: missing required field "pattern_type".`);
+    if (!item.academic_function && !item.category) warnings.push(`${item.id}: missing required field "academic_function".`);
   }
   return ok(warnings);
 }
@@ -267,7 +272,7 @@ function normalizeResources(resources) {
     synonymCore,
     synonymsByLemma: Object.fromEntries(synonymCore.map((entry) => [entry.lemma, entry])),
     academicWordFamilies: resources.academicWordFamilies,
-    collocationBank: resources.collocationBank,
+    collocationBank: normalizeCollocationBank(resources.collocationBank),
     reportingVerbBank,
     reportingVerbsByLemma: Object.fromEntries(reportingVerbBank.map((entry) => [entry.verb, entry.replacements])),
     reportingVerbsByForm: createReportingVerbFormMap(reportingVerbBank),
@@ -277,6 +282,25 @@ function normalizeResources(resources) {
     phrasePatterns: resources.phrasePatterns,
     rewriteRules: resources.rewriteRules,
     personalBlacklistDefault: resources.personalBlacklistDefault
+  };
+}
+
+function normalizeCollocationBank(bank) {
+  return {
+    good: (bank.good || []).map(normalizeCollocationEntry),
+    blocked: (bank.blocked || []).map(normalizeCollocationEntry)
+  };
+}
+
+function normalizeCollocationEntry(item) {
+  return {
+    ...item,
+    risk: item.risk || item.risk_level || "Safe",
+    risk_level: item.risk_level || item.risk || "Safe",
+    category: item.category || item.academic_function || "academic collocation",
+    academic_function: item.academic_function || item.category || "academic collocation",
+    best_sections: item.best_sections || ["General"],
+    explanation: item.explanation || `Use "${item.collocation}" as a natural academic collocation.`
   };
 }
 

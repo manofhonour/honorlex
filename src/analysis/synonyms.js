@@ -1,6 +1,7 @@
 import { describeSurface } from "./pos.js";
 import { inflectReplacement } from "./inflection.js";
 import { MINIMUM_SUGGESTION_QUALITY, scoreSynonymCandidate } from "./ranking.js";
+import { replacementBreaksCollocation } from "./collocations.js";
 
 export function analyzeSynonyms({ text, focus, resources, addSuggestion }) {
   const wordRe = /\b[A-Za-z][A-Za-z'-]*\b/g;
@@ -20,6 +21,7 @@ export function analyzeSynonyms({ text, focus, resources, addSuggestion }) {
       const sections = candidate.sections || candidate.focus || [];
       if (!sections.includes(focus) && !sections.includes("General")) continue;
       const inflected = inflectReplacement(context, candidate.lemma, candidate.pos || entry.pos);
+      if (replacementBreaksCollocation({ text, start: match.index, end: match.index + surface.length, replacement: inflected.replacement, resources })) continue;
       const ranking = scoreSynonymCandidate({ entry, candidate, context, focus, text, resources, inflected });
       if (ranking.blocked || ranking.scores.overall_score < MINIMUM_SUGGESTION_QUALITY) continue;
       addSuggestion({

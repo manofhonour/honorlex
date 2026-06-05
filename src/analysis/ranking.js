@@ -13,8 +13,12 @@ export function rankSuggestions(items, options = {}) {
     .filter((item) => options.showAll || !item.scores || item.scores.overall_score >= MINIMUM_SUGGESTION_QUALITY)
     .sort((a, b) => {
       const scoreDelta = (b.scores?.overall_score ?? 70) - (a.scores?.overall_score ?? 70);
-      return riskRank(a.risk) - riskRank(b.risk) || scoreDelta || a.start - b.start;
+      return kindRank(a.kind) - kindRank(b.kind) || riskRank(a.risk) - riskRank(b.risk) || scoreDelta || a.start - b.start;
     });
+}
+
+function kindRank(kind) {
+  return kind === "Collocation" ? 0 : 1;
 }
 
 export function scoreSynonymCandidate({ entry, candidate, context, focus, text, resources, inflected }) {

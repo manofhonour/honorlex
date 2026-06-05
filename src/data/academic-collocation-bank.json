@@ -1,19 +1,4835 @@
 {
   "good": [
-    { "id": "col-good-conduct-research", "collocation": "conduct research", "category": "research process", "risk": "Safe", "explanation": "Natural academic verb-noun pairing." },
-    { "id": "col-good-conduct-study", "collocation": "conduct a study", "category": "research process", "risk": "Safe", "explanation": "Standard expression for carrying out a study." },
-    { "id": "col-good-empirical-evidence", "collocation": "empirical evidence", "category": "evidence", "risk": "Safe", "explanation": "Appropriate for evidence based on observation or data." },
-    { "id": "col-good-qualitative-findings", "collocation": "qualitative findings", "category": "findings", "risk": "Safe", "explanation": "Natural label for findings from qualitative data." },
-    { "id": "col-good-teacher-beliefs", "collocation": "teacher beliefs", "category": "domain", "risk": "Safe", "explanation": "Common in education research." },
-    { "id": "col-good-classroom-participation", "collocation": "classroom participation", "category": "domain", "risk": "Safe", "explanation": "Natural educational research collocation." },
-    { "id": "col-good-research-design", "collocation": "research design", "category": "method", "risk": "Safe", "explanation": "Standard methodology term." }
+    {
+      "id": "col-good-001-conduct-research",
+      "node_word": "research",
+      "collocation": "conduct research",
+      "pattern_type": "verb+noun",
+      "academic_function": "research process",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"conduct research\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-002-conduct-a-study",
+      "node_word": "study",
+      "collocation": "conduct a study",
+      "pattern_type": "verb+noun",
+      "academic_function": "research process",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"conduct a study\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-003-carry-out-an-analysis",
+      "node_word": "analysis",
+      "collocation": "carry out an analysis",
+      "pattern_type": "verb+noun",
+      "academic_function": "analysis process",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"carry out an analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-004-perform-an-analysis",
+      "node_word": "analysis",
+      "collocation": "perform an analysis",
+      "pattern_type": "verb+noun",
+      "academic_function": "analysis process",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"perform an analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-005-analyze-data",
+      "node_word": "data",
+      "collocation": "analyze data",
+      "pattern_type": "verb+noun",
+      "academic_function": "analysis process",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"analyze data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-006-interpret-data",
+      "node_word": "data",
+      "collocation": "interpret data",
+      "pattern_type": "verb+noun",
+      "academic_function": "interpretation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"interpret data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-007-code-interviews",
+      "node_word": "interview",
+      "collocation": "code interviews",
+      "pattern_type": "verb+noun",
+      "academic_function": "qualitative analysis",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"code interviews\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-008-transcribe-interviews",
+      "node_word": "interview",
+      "collocation": "transcribe interviews",
+      "pattern_type": "verb+noun",
+      "academic_function": "data preparation",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"transcribe interviews\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-009-collect-data",
+      "node_word": "data",
+      "collocation": "collect data",
+      "pattern_type": "verb+noun",
+      "academic_function": "data collection",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"collect data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-010-gather-data",
+      "node_word": "data",
+      "collocation": "gather data",
+      "pattern_type": "verb+noun",
+      "academic_function": "data collection",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"gather data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-011-obtain-data",
+      "node_word": "data",
+      "collocation": "obtain data",
+      "pattern_type": "verb+noun",
+      "academic_function": "data collection",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"obtain data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-012-present-findings",
+      "node_word": "findings",
+      "collocation": "present findings",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"present findings\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-013-report-results",
+      "node_word": "results",
+      "collocation": "report results",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"report results\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-014-interpret-findings",
+      "node_word": "findings",
+      "collocation": "interpret findings",
+      "pattern_type": "verb+noun",
+      "academic_function": "interpretation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"interpret findings\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-015-discuss-implications",
+      "node_word": "implication",
+      "collocation": "discuss implications",
+      "pattern_type": "verb+noun",
+      "academic_function": "discussion move",
+      "best_sections": [
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"discuss implications\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-016-address-a-gap",
+      "node_word": "gap",
+      "collocation": "address a gap",
+      "pattern_type": "verb+noun",
+      "academic_function": "literature gap",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"address a gap\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-017-identify-a-gap",
+      "node_word": "gap",
+      "collocation": "identify a gap",
+      "pattern_type": "verb+noun",
+      "academic_function": "literature gap",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"identify a gap\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-018-fill-a-gap",
+      "node_word": "gap",
+      "collocation": "fill a gap",
+      "pattern_type": "verb+noun",
+      "academic_function": "literature gap",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"fill a gap\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-019-make-a-contribution",
+      "node_word": "contribution",
+      "collocation": "make a contribution",
+      "pattern_type": "verb+noun",
+      "academic_function": "research contribution",
+      "best_sections": [
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"make a contribution\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-020-offer-an-explanation",
+      "node_word": "explanation",
+      "collocation": "offer an explanation",
+      "pattern_type": "verb+noun",
+      "academic_function": "interpretation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"offer an explanation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-021-provide-evidence",
+      "node_word": "evidence",
+      "collocation": "provide evidence",
+      "pattern_type": "verb+noun",
+      "academic_function": "supporting claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"provide evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-022-provide-support",
+      "node_word": "support",
+      "collocation": "provide support",
+      "pattern_type": "verb+noun",
+      "academic_function": "supporting claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"provide support\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-023-provide-insight",
+      "node_word": "insight",
+      "collocation": "provide insight",
+      "pattern_type": "verb+noun",
+      "academic_function": "interpretation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"provide insight\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-024-raise-a-question",
+      "node_word": "question",
+      "collocation": "raise a question",
+      "pattern_type": "verb+noun",
+      "academic_function": "critical discussion",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"raise a question\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-025-pose-a-problem",
+      "node_word": "problem",
+      "collocation": "pose a problem",
+      "pattern_type": "verb+noun",
+      "academic_function": "problem statement",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"pose a problem\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-026-draw-a-distinction",
+      "node_word": "distinction",
+      "collocation": "draw a distinction",
+      "pattern_type": "verb+noun",
+      "academic_function": "conceptual contrast",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"draw a distinction\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-027-make-a-distinction",
+      "node_word": "distinction",
+      "collocation": "make a distinction",
+      "pattern_type": "verb+noun",
+      "academic_function": "conceptual contrast",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"make a distinction\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-028-establish-a-relationship",
+      "node_word": "relationship",
+      "collocation": "establish a relationship",
+      "pattern_type": "verb+noun",
+      "academic_function": "relationship claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"establish a relationship\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-029-examine-a-relationship",
+      "node_word": "relationship",
+      "collocation": "examine a relationship",
+      "pattern_type": "verb+noun",
+      "academic_function": "analysis process",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"examine a relationship\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-030-identify-a-pattern",
+      "node_word": "pattern",
+      "collocation": "identify a pattern",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"identify a pattern\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-031-observe-a-pattern",
+      "node_word": "pattern",
+      "collocation": "observe a pattern",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"observe a pattern\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-032-show-a-tendency",
+      "node_word": "tendency",
+      "collocation": "show a tendency",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"show a tendency\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-033-suggest-a-tendency",
+      "node_word": "tendency",
+      "collocation": "suggest a tendency",
+      "pattern_type": "verb+noun",
+      "academic_function": "cautious finding",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"suggest a tendency\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-034-play-a-role",
+      "node_word": "role",
+      "collocation": "play a role",
+      "pattern_type": "verb+noun",
+      "academic_function": "interpretation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"play a role\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-035-serve-a-function",
+      "node_word": "function",
+      "collocation": "serve a function",
+      "pattern_type": "verb+noun",
+      "academic_function": "interpretation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"serve a function\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-036-have-an-effect",
+      "node_word": "effect",
+      "collocation": "have an effect",
+      "pattern_type": "verb+noun",
+      "academic_function": "effect statement",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"have an effect\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-037-exert-an-influence",
+      "node_word": "influence",
+      "collocation": "exert an influence",
+      "pattern_type": "verb+noun",
+      "academic_function": "influence statement",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"exert an influence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-038-be-associated-with",
+      "node_word": "association",
+      "collocation": "be associated with",
+      "pattern_type": "verb+preposition",
+      "academic_function": "relationship claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"be associated with\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-039-be-related-to",
+      "node_word": "relationship",
+      "collocation": "be related to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "relationship claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"be related to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-040-be-linked-to",
+      "node_word": "link",
+      "collocation": "be linked to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "relationship claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"be linked to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-041-depend-on",
+      "node_word": "depend",
+      "collocation": "depend on",
+      "pattern_type": "verb+preposition",
+      "academic_function": "relationship claim",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"depend on\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-042-result-in",
+      "node_word": "result",
+      "collocation": "result in",
+      "pattern_type": "verb+preposition",
+      "academic_function": "consequence",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"result in\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-043-lead-to",
+      "node_word": "lead",
+      "collocation": "lead to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "consequence",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"lead to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-044-contribute-to",
+      "node_word": "contribution",
+      "collocation": "contribute to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "contribution",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"contribute to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-045-account-for",
+      "node_word": "account",
+      "collocation": "account for",
+      "pattern_type": "verb+preposition",
+      "academic_function": "explanation",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"account for\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-046-focus-on",
+      "node_word": "focus",
+      "collocation": "focus on",
+      "pattern_type": "verb+preposition",
+      "academic_function": "scope",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"focus on\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-047-refer-to",
+      "node_word": "reference",
+      "collocation": "refer to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "reference",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"refer to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-048-consist-of",
+      "node_word": "composition",
+      "collocation": "consist of",
+      "pattern_type": "verb+preposition",
+      "academic_function": "description",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"consist of\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-049-be-based-on",
+      "node_word": "basis",
+      "collocation": "be based on",
+      "pattern_type": "verb+preposition",
+      "academic_function": "basis",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"be based on\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-050-be-concerned-with",
+      "node_word": "concern",
+      "collocation": "be concerned with",
+      "pattern_type": "verb+preposition",
+      "academic_function": "scope",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"be concerned with\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-051-be-limited-to",
+      "node_word": "limitation",
+      "collocation": "be limited to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "limitation",
+      "best_sections": [
+        "Method",
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"be limited to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-052-be-consistent-with",
+      "node_word": "consistency",
+      "collocation": "be consistent with",
+      "pattern_type": "verb+preposition",
+      "academic_function": "comparison",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"be consistent with\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-053-be-comparable-to",
+      "node_word": "comparison",
+      "collocation": "be comparable to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "comparison",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"be comparable to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-054-be-relevant-to",
+      "node_word": "relevance",
+      "collocation": "be relevant to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "relevance",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"be relevant to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-055-be-appropriate-for",
+      "node_word": "appropriacy",
+      "collocation": "be appropriate for",
+      "pattern_type": "verb+preposition",
+      "academic_function": "appropriacy",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"be appropriate for\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-056-be-useful-for",
+      "node_word": "usefulness",
+      "collocation": "be useful for",
+      "pattern_type": "verb+preposition",
+      "academic_function": "usefulness",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"be useful for\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-057-be-central-to",
+      "node_word": "centrality",
+      "collocation": "be central to",
+      "pattern_type": "verb+preposition",
+      "academic_function": "centrality",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"be central to\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-058-be-significant-for",
+      "node_word": "significance",
+      "collocation": "be significant for",
+      "pattern_type": "verb+preposition",
+      "academic_function": "significance",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"be significant for\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-059-empirical-evidence",
+      "node_word": "evidence",
+      "collocation": "empirical evidence",
+      "pattern_type": "adjective+noun",
+      "academic_function": "evidence",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"empirical evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-060-strong-evidence",
+      "node_word": "evidence",
+      "collocation": "strong evidence",
+      "pattern_type": "adjective+noun",
+      "academic_function": "evidence",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"strong evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-061-limited-evidence",
+      "node_word": "evidence",
+      "collocation": "limited evidence",
+      "pattern_type": "adjective+noun",
+      "academic_function": "evidence",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"limited evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-062-available-evidence",
+      "node_word": "evidence",
+      "collocation": "available evidence",
+      "pattern_type": "adjective+noun",
+      "academic_function": "evidence",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"available evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-063-qualitative-data",
+      "node_word": "data",
+      "collocation": "qualitative data",
+      "pattern_type": "adjective+noun",
+      "academic_function": "data type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"qualitative data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-064-quantitative-data",
+      "node_word": "data",
+      "collocation": "quantitative data",
+      "pattern_type": "adjective+noun",
+      "academic_function": "data type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"quantitative data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-065-interview-data",
+      "node_word": "data",
+      "collocation": "interview data",
+      "pattern_type": "noun+noun",
+      "academic_function": "data type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"interview data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-066-survey-data",
+      "node_word": "data",
+      "collocation": "survey data",
+      "pattern_type": "noun+noun",
+      "academic_function": "data type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"survey data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-067-self-reported-data",
+      "node_word": "data",
+      "collocation": "self-reported data",
+      "pattern_type": "adjective+noun",
+      "academic_function": "data type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"self-reported data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-068-descriptive-statistics",
+      "node_word": "statistics",
+      "collocation": "descriptive statistics",
+      "pattern_type": "adjective+noun",
+      "academic_function": "analysis type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"descriptive statistics\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-069-statistical-analysis",
+      "node_word": "analysis",
+      "collocation": "statistical analysis",
+      "pattern_type": "adjective+noun",
+      "academic_function": "analysis type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"statistical analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-070-thematic-analysis",
+      "node_word": "analysis",
+      "collocation": "thematic analysis",
+      "pattern_type": "adjective+noun",
+      "academic_function": "analysis type",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"thematic analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-071-critical-analysis",
+      "node_word": "analysis",
+      "collocation": "critical analysis",
+      "pattern_type": "adjective+noun",
+      "academic_function": "analysis type",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"critical analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-072-discourse-analysis",
+      "node_word": "analysis",
+      "collocation": "discourse analysis",
+      "pattern_type": "noun+noun",
+      "academic_function": "domain method",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"discourse analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-073-textual-analysis",
+      "node_word": "analysis",
+      "collocation": "textual analysis",
+      "pattern_type": "adjective+noun",
+      "academic_function": "domain method",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"textual analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-074-discursive-practice",
+      "node_word": "practice",
+      "collocation": "discursive practice",
+      "pattern_type": "adjective+noun",
+      "academic_function": "CDA domain",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"discursive practice\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-075-social-practice",
+      "node_word": "practice",
+      "collocation": "social practice",
+      "pattern_type": "adjective+noun",
+      "academic_function": "CDA domain",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Discussion",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"social practice\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-076-classroom-discourse",
+      "node_word": "discourse",
+      "collocation": "classroom discourse",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Method",
+        "Findings",
+        "TR Dizin"
+      ],
+      "example": "The sentence uses \"classroom discourse\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-077-teacher-beliefs",
+      "node_word": "belief",
+      "collocation": "teacher beliefs",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"teacher beliefs\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-078-student-perceptions",
+      "node_word": "perception",
+      "collocation": "student perceptions",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"student perceptions\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-079-reported-practices",
+      "node_word": "practice",
+      "collocation": "reported practices",
+      "pattern_type": "adjective+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"reported practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-080-classroom-practices",
+      "node_word": "practice",
+      "collocation": "classroom practices",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"classroom practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-081-pedagogical-support",
+      "node_word": "support",
+      "collocation": "pedagogical support",
+      "pattern_type": "adjective+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"pedagogical support\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-082-instructional-support",
+      "node_word": "support",
+      "collocation": "instructional support",
+      "pattern_type": "adjective+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"instructional support\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-083-target-language-exposure",
+      "node_word": "exposure",
+      "collocation": "target-language exposure",
+      "pattern_type": "adjective+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"target-language exposure\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-084-native-language-use",
+      "node_word": "use",
+      "collocation": "native-language use",
+      "pattern_type": "adjective+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"native-language use\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-085-language-use",
+      "node_word": "use",
+      "collocation": "language use",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"language use\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-086-classroom-participation",
+      "node_word": "participation",
+      "collocation": "classroom participation",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"classroom participation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-087-language-learning-opportunities",
+      "node_word": "opportunity",
+      "collocation": "language learning opportunities",
+      "pattern_type": "noun+noun",
+      "academic_function": "ELT domain",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"language learning opportunities\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-088-significant-difference",
+      "node_word": "difference",
+      "collocation": "significant difference",
+      "pattern_type": "adjective+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"significant difference\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-089-meaningful-difference",
+      "node_word": "difference",
+      "collocation": "meaningful difference",
+      "pattern_type": "adjective+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"meaningful difference\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-090-clear-pattern",
+      "node_word": "pattern",
+      "collocation": "clear pattern",
+      "pattern_type": "adjective+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"clear pattern\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-091-recurring-pattern",
+      "node_word": "pattern",
+      "collocation": "recurring pattern",
+      "pattern_type": "adjective+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"recurring pattern\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-092-emerging-theme",
+      "node_word": "theme",
+      "collocation": "emerging theme",
+      "pattern_type": "adjective+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Findings",
+        "Discussion"
+      ],
+      "example": "The sentence uses \"emerging theme\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-093-major-limitation",
+      "node_word": "limitation",
+      "collocation": "major limitation",
+      "pattern_type": "adjective+noun",
+      "academic_function": "limitation",
+      "best_sections": [
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"major limitation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-094-important-implication",
+      "node_word": "implication",
+      "collocation": "important implication",
+      "pattern_type": "adjective+noun",
+      "academic_function": "discussion move",
+      "best_sections": [
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"important implication\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-095-practical-implication",
+      "node_word": "implication",
+      "collocation": "practical implication",
+      "pattern_type": "adjective+noun",
+      "academic_function": "discussion move",
+      "best_sections": [
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"practical implication\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-096-theoretical-contribution",
+      "node_word": "contribution",
+      "collocation": "theoretical contribution",
+      "pattern_type": "adjective+noun",
+      "academic_function": "contribution",
+      "best_sections": [
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"theoretical contribution\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-097-methodological-limitation",
+      "node_word": "limitation",
+      "collocation": "methodological limitation",
+      "pattern_type": "adjective+noun",
+      "academic_function": "limitation",
+      "best_sections": [
+        "Method",
+        "Discussion",
+        "Conclusion"
+      ],
+      "example": "The sentence uses \"methodological limitation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-098-academic-research",
+      "node_word": "research",
+      "collocation": "academic research",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"academic research\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-099-empirical-research",
+      "node_word": "research",
+      "collocation": "empirical research",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"empirical research\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-100-current-study",
+      "node_word": "study",
+      "collocation": "current study",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"current study\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-101-previous-study",
+      "node_word": "study",
+      "collocation": "previous study",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"previous study\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-102-research-data",
+      "node_word": "data",
+      "collocation": "research data",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-103-qualitative-data",
+      "node_word": "data",
+      "collocation": "qualitative data",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"qualitative data\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-104-empirical-evidence",
+      "node_word": "evidence",
+      "collocation": "empirical evidence",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"empirical evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-105-available-evidence",
+      "node_word": "evidence",
+      "collocation": "available evidence",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"available evidence\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-106-qualitative-findings",
+      "node_word": "findings",
+      "collocation": "qualitative findings",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"qualitative findings\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-107-main-findings",
+      "node_word": "findings",
+      "collocation": "main findings",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"main findings\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-108-main-results",
+      "node_word": "results",
+      "collocation": "main results",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"main results\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-109-reported-results",
+      "node_word": "results",
+      "collocation": "reported results",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"reported results\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-110-detailed-analysis",
+      "node_word": "analysis",
+      "collocation": "detailed analysis",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"detailed analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-111-qualitative-analysis",
+      "node_word": "analysis",
+      "collocation": "qualitative analysis",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"qualitative analysis\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-112-research-method",
+      "node_word": "method",
+      "collocation": "research method",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research method\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-113-appropriate-method",
+      "node_word": "method",
+      "collocation": "appropriate method",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"appropriate method\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-114-research-methodology",
+      "node_word": "methodology",
+      "collocation": "research methodology",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research methodology\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-115-qualitative-methodology",
+      "node_word": "methodology",
+      "collocation": "qualitative methodology",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"qualitative methodology\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-116-research-design",
+      "node_word": "design",
+      "collocation": "research design",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research design\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-117-study-design",
+      "node_word": "design",
+      "collocation": "study design",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"study design\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-118-small-sample",
+      "node_word": "sample",
+      "collocation": "small sample",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"small sample\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-119-study-sample",
+      "node_word": "sample",
+      "collocation": "study sample",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"study sample\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-120-study-participants",
+      "node_word": "participant",
+      "collocation": "study participants",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"study participants\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-121-research-participants",
+      "node_word": "participant",
+      "collocation": "research participants",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research participants\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-122-participant-responses",
+      "node_word": "response",
+      "collocation": "participant responses",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"participant responses\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-123-interview-responses",
+      "node_word": "response",
+      "collocation": "interview responses",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"interview responses\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-124-semi-structured-interviews",
+      "node_word": "interview",
+      "collocation": "semi-structured interviews",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"semi-structured interviews\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-125-participant-interviews",
+      "node_word": "interview",
+      "collocation": "participant interviews",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"participant interviews\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-126-survey-questionnaire",
+      "node_word": "questionnaire",
+      "collocation": "survey questionnaire",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"survey questionnaire\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-127-structured-questionnaire",
+      "node_word": "questionnaire",
+      "collocation": "structured questionnaire",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"structured questionnaire\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-128-questionnaire-survey",
+      "node_word": "survey",
+      "collocation": "questionnaire survey",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"questionnaire survey\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-129-student-survey",
+      "node_word": "survey",
+      "collocation": "student survey",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student survey\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-130-classroom-observation",
+      "node_word": "observation",
+      "collocation": "classroom observation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom observation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-131-structured-observation",
+      "node_word": "observation",
+      "collocation": "structured observation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"structured observation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-132-text-corpus",
+      "node_word": "corpus",
+      "collocation": "text corpus",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"text corpus\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-133-research-corpus",
+      "node_word": "corpus",
+      "collocation": "research corpus",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research corpus\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-134-dependent-variable",
+      "node_word": "variable",
+      "collocation": "dependent variable",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"dependent variable\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-135-independent-variable",
+      "node_word": "variable",
+      "collocation": "independent variable",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"independent variable\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-136-reliable-measure",
+      "node_word": "measure",
+      "collocation": "reliable measure",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"reliable measure\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-137-valid-measure",
+      "node_word": "measure",
+      "collocation": "valid measure",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"valid measure\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-138-likert-scale",
+      "node_word": "scale",
+      "collocation": "Likert scale",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"Likert scale\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-139-measurement-scale",
+      "node_word": "scale",
+      "collocation": "measurement scale",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"measurement scale\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-140-questionnaire-item",
+      "node_word": "item",
+      "collocation": "questionnaire item",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"questionnaire item\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-141-survey-item",
+      "node_word": "item",
+      "collocation": "survey item",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"survey item\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-142-internal-reliability",
+      "node_word": "reliability",
+      "collocation": "internal reliability",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"internal reliability\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-143-acceptable-reliability",
+      "node_word": "reliability",
+      "collocation": "acceptable reliability",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"acceptable reliability\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-144-construct-validity",
+      "node_word": "validity",
+      "collocation": "construct validity",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"construct validity\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-145-content-validity",
+      "node_word": "validity",
+      "collocation": "content validity",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"content validity\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-146-thematic-coding",
+      "node_word": "coding",
+      "collocation": "thematic coding",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"thematic coding\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-147-initial-coding",
+      "node_word": "coding",
+      "collocation": "initial coding",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"initial coding\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-148-emerging-theme",
+      "node_word": "theme",
+      "collocation": "emerging theme",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"emerging theme\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-149-recurring-theme",
+      "node_word": "theme",
+      "collocation": "recurring theme",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"recurring theme\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-150-coding-category",
+      "node_word": "category",
+      "collocation": "coding category",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"coding category\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-151-analytical-category",
+      "node_word": "category",
+      "collocation": "analytical category",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"analytical category\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-152-clear-pattern",
+      "node_word": "pattern",
+      "collocation": "clear pattern",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"clear pattern\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-153-recurring-pattern",
+      "node_word": "pattern",
+      "collocation": "recurring pattern",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"recurring pattern\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-154-central-argument",
+      "node_word": "argument",
+      "collocation": "central argument",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"central argument\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-155-main-argument",
+      "node_word": "argument",
+      "collocation": "main argument",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"main argument\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-156-research-claim",
+      "node_word": "claim",
+      "collocation": "research claim",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research claim\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-157-central-claim",
+      "node_word": "claim",
+      "collocation": "central claim",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"central claim\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-158-main-point",
+      "node_word": "point",
+      "collocation": "main point",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"main point\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-159-important-point",
+      "node_word": "point",
+      "collocation": "important point",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"important point\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-160-important-issue",
+      "node_word": "issue",
+      "collocation": "important issue",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"important issue\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-161-central-issue",
+      "node_word": "issue",
+      "collocation": "central issue",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"central issue\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-162-research-problem",
+      "node_word": "problem",
+      "collocation": "research problem",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research problem\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-163-practical-problem",
+      "node_word": "problem",
+      "collocation": "practical problem",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"practical problem\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-164-research-question",
+      "node_word": "question",
+      "collocation": "research question",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research question\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-165-central-question",
+      "node_word": "question",
+      "collocation": "central question",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"central question\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-166-research-gap",
+      "node_word": "gap",
+      "collocation": "research gap",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"research gap\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-167-literature-gap",
+      "node_word": "gap",
+      "collocation": "literature gap",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"literature gap\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-168-major-limitation",
+      "node_word": "limitation",
+      "collocation": "major limitation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"major limitation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-169-methodological-limitation",
+      "node_word": "limitation",
+      "collocation": "methodological limitation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"methodological limitation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-170-practical-implication",
+      "node_word": "implication",
+      "collocation": "practical implication",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"practical implication\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-171-important-implication",
+      "node_word": "implication",
+      "collocation": "important implication",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"important implication\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-172-theoretical-contribution",
+      "node_word": "contribution",
+      "collocation": "theoretical contribution",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"theoretical contribution\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-173-methodological-contribution",
+      "node_word": "contribution",
+      "collocation": "methodological contribution",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"methodological contribution\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-174-main-conclusion",
+      "node_word": "conclusion",
+      "collocation": "main conclusion",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"main conclusion\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-175-tentative-conclusion",
+      "node_word": "conclusion",
+      "collocation": "tentative conclusion",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"tentative conclusion\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-176-method-section",
+      "node_word": "section",
+      "collocation": "method section",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"method section\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-177-findings-section",
+      "node_word": "section",
+      "collocation": "findings section",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"findings section\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-178-relevant-literature",
+      "node_word": "literature",
+      "collocation": "relevant literature",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"relevant literature\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-179-existing-literature",
+      "node_word": "literature",
+      "collocation": "existing literature",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"existing literature\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-180-literature-review",
+      "node_word": "review",
+      "collocation": "literature review",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"literature review\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-181-systematic-review",
+      "node_word": "review",
+      "collocation": "systematic review",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"systematic review\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-182-secondary-source",
+      "node_word": "source",
+      "collocation": "secondary source",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"secondary source\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-183-primary-source",
+      "node_word": "source",
+      "collocation": "primary source",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"primary source\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-184-apa-reference",
+      "node_word": "reference",
+      "collocation": "APA reference",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"APA reference\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-185-relevant-reference",
+      "node_word": "reference",
+      "collocation": "relevant reference",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"relevant reference\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-186-theoretical-framework",
+      "node_word": "framework",
+      "collocation": "theoretical framework",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"theoretical framework\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-187-conceptual-framework",
+      "node_word": "framework",
+      "collocation": "conceptual framework",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"conceptual framework\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-188-social-theory",
+      "node_word": "theory",
+      "collocation": "social theory",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"social theory\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-189-learning-theory",
+      "node_word": "theory",
+      "collocation": "learning theory",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"learning theory\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-190-analytical-model",
+      "node_word": "model",
+      "collocation": "analytical model",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"analytical model\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-191-conceptual-model",
+      "node_word": "model",
+      "collocation": "conceptual model",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"conceptual model\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-192-key-concept",
+      "node_word": "concept",
+      "collocation": "key concept",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"key concept\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-193-central-concept",
+      "node_word": "concept",
+      "collocation": "central concept",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"central concept\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-194-critical-perspective",
+      "node_word": "perspective",
+      "collocation": "critical perspective",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"critical perspective\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-195-pedagogical-perspective",
+      "node_word": "perspective",
+      "collocation": "pedagogical perspective",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"pedagogical perspective\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-196-qualitative-approach",
+      "node_word": "approach",
+      "collocation": "qualitative approach",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"qualitative approach\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-197-pedagogical-approach",
+      "node_word": "approach",
+      "collocation": "pedagogical approach",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"pedagogical approach\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-198-teacher-beliefs",
+      "node_word": "teacher",
+      "collocation": "teacher beliefs",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher beliefs\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-199-teacher-practices",
+      "node_word": "teacher",
+      "collocation": "teacher practices",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-200-student-perceptions",
+      "node_word": "student",
+      "collocation": "student perceptions",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student perceptions\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-201-student-participation",
+      "node_word": "student",
+      "collocation": "student participation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student participation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-202-learner-autonomy",
+      "node_word": "learner",
+      "collocation": "learner autonomy",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"learner autonomy\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-203-learner-participation",
+      "node_word": "learner",
+      "collocation": "learner participation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"learner participation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-204-classroom-discourse",
+      "node_word": "classroom",
+      "collocation": "classroom discourse",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom discourse\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-205-classroom-practices",
+      "node_word": "classroom",
+      "collocation": "classroom practices",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-206-language-use",
+      "node_word": "language",
+      "collocation": "language use",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"language use\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-207-target-language",
+      "node_word": "language",
+      "collocation": "target language",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"target language\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-208-classroom-discourse",
+      "node_word": "discourse",
+      "collocation": "classroom discourse",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom discourse\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-209-critical-discourse",
+      "node_word": "discourse",
+      "collocation": "critical discourse",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"critical discourse\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-210-language-ideology",
+      "node_word": "ideology",
+      "collocation": "language ideology",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"language ideology\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-211-dominant-ideology",
+      "node_word": "ideology",
+      "collocation": "dominant ideology",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"dominant ideology\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-212-classroom-interaction",
+      "node_word": "interaction",
+      "collocation": "classroom interaction",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom interaction\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-213-peer-interaction",
+      "node_word": "interaction",
+      "collocation": "peer interaction",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"peer interaction\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-214-classroom-participation",
+      "node_word": "participation",
+      "collocation": "classroom participation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom participation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-215-student-participation",
+      "node_word": "participation",
+      "collocation": "student participation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student participation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-216-reading-comprehension",
+      "node_word": "comprehension",
+      "collocation": "reading comprehension",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"reading comprehension\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-217-student-comprehension",
+      "node_word": "comprehension",
+      "collocation": "student comprehension",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student comprehension\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-218-target-language-exposure",
+      "node_word": "exposure",
+      "collocation": "target-language exposure",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"target-language exposure\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-219-language-exposure",
+      "node_word": "exposure",
+      "collocation": "language exposure",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"language exposure\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-220-language-proficiency",
+      "node_word": "proficiency",
+      "collocation": "language proficiency",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"language proficiency\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-221-english-proficiency",
+      "node_word": "proficiency",
+      "collocation": "English proficiency",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"English proficiency\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-222-student-motivation",
+      "node_word": "motivation",
+      "collocation": "student motivation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student motivation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-223-learning-motivation",
+      "node_word": "motivation",
+      "collocation": "learning motivation",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"learning motivation\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-224-language-anxiety",
+      "node_word": "anxiety",
+      "collocation": "language anxiety",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"language anxiety\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-225-student-anxiety",
+      "node_word": "anxiety",
+      "collocation": "student anxiety",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student anxiety\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-226-teacher-beliefs",
+      "node_word": "belief",
+      "collocation": "teacher beliefs",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher beliefs\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-227-student-beliefs",
+      "node_word": "belief",
+      "collocation": "student beliefs",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student beliefs\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-228-student-attitudes",
+      "node_word": "attitude",
+      "collocation": "student attitudes",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student attitudes\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-229-teacher-attitudes",
+      "node_word": "attitude",
+      "collocation": "teacher attitudes",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher attitudes\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-230-student-perceptions",
+      "node_word": "perception",
+      "collocation": "student perceptions",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student perceptions\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-231-teacher-perceptions",
+      "node_word": "perception",
+      "collocation": "teacher perceptions",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher perceptions\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-232-classroom-practices",
+      "node_word": "practice",
+      "collocation": "classroom practices",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"classroom practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-233-reported-practices",
+      "node_word": "practice",
+      "collocation": "reported practices",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"reported practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-234-pedagogical-translanguaging",
+      "node_word": "translanguaging",
+      "collocation": "pedagogical translanguaging",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"pedagogical translanguaging\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-235-translanguaging-practices",
+      "node_word": "translanguaging",
+      "collocation": "translanguaging practices",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"translanguaging practices\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-236-teacher-scaffolding",
+      "node_word": "scaffolding",
+      "collocation": "teacher scaffolding",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher scaffolding\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-237-peer-scaffolding",
+      "node_word": "scaffolding",
+      "collocation": "peer scaffolding",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"peer scaffolding\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-238-student-positioning",
+      "node_word": "positioning",
+      "collocation": "student positioning",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student positioning\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-239-teacher-positioning",
+      "node_word": "positioning",
+      "collocation": "teacher positioning",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher positioning\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-240-teacher-agency",
+      "node_word": "agency",
+      "collocation": "teacher agency",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher agency\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-241-student-agency",
+      "node_word": "agency",
+      "collocation": "student agency",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"student agency\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-242-teacher-identity",
+      "node_word": "identity",
+      "collocation": "teacher identity",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"teacher identity\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    },
+    {
+      "id": "col-good-243-learner-identity",
+      "node_word": "identity",
+      "collocation": "learner identity",
+      "pattern_type": "noun+noun",
+      "academic_function": "academic expression",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "The sentence uses \"learner identity\" as a natural academic collocation.",
+      "warning": "",
+      "risk_level": "Safe"
+    }
   ],
   "blocked": [
-    { "id": "col-block-make-research", "pattern": "\\bmake a research\\b", "replacement": "conduct research", "category": "research process", "risk": "Safe", "explanation": "Use conduct research, not make a research." },
-    { "id": "col-block-do-study", "pattern": "\\bdo a study\\b", "replacement": "conduct a study", "category": "research process", "risk": "Safe", "explanation": "Conduct a study is the more natural academic collocation." },
-    { "id": "col-block-statistics-data", "pattern": "\\bstatistics data\\b", "replacement": "statistical data", "category": "data", "risk": "Safe", "explanation": "Statistical data is the natural adjective-noun form." },
-    { "id": "col-block-ascertain-findings", "pattern": "\\bascertain findings\\b", "replacement": "identify findings", "category": "findings", "risk": "Moderate", "explanation": "Ascertain findings is unnatural in academic prose." },
-    { "id": "col-block-big-significance", "pattern": "\\bbig significance\\b", "replacement": "substantial significance", "category": "emphasis", "risk": "Moderate", "explanation": "Big significance is informal; check whether significance is statistical or general." },
-    { "id": "col-block-strong-evidence", "pattern": "\\bstrong evidence shows clearly\\b", "replacement": "the evidence suggests", "category": "claim strength", "risk": "Review carefully", "explanation": "The original overstates certainty and sounds mechanical." }
+    {
+      "id": "col-block-make-research",
+      "node_word": "research",
+      "collocation": "conduct research",
+      "pattern": "\\bmake (?:a )?research\\b",
+      "replacement": "conduct research",
+      "pattern_type": "verb+noun",
+      "academic_function": "research process",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "make (?:a )?research -> conduct research",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Use conduct research, not make research."
+    },
+    {
+      "id": "col-block-do-research",
+      "node_word": "research",
+      "collocation": "conduct research",
+      "pattern": "\\bdo research\\b",
+      "replacement": "conduct research",
+      "pattern_type": "verb+noun",
+      "academic_function": "research process",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "do research -> conduct research",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Conduct research is the standard academic collocation."
+    },
+    {
+      "id": "col-block-do-study",
+      "node_word": "study",
+      "collocation": "conduct a study",
+      "pattern": "\\bdo a study\\b",
+      "replacement": "conduct a study",
+      "pattern_type": "verb+noun",
+      "academic_function": "research process",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "do a study -> conduct a study",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Conduct a study is the natural academic collocation."
+    },
+    {
+      "id": "col-block-make-study",
+      "node_word": "study",
+      "collocation": "conduct a study",
+      "pattern": "\\bmake a study\\b",
+      "replacement": "conduct a study",
+      "pattern_type": "verb+noun",
+      "academic_function": "research process",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "make a study -> conduct a study",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Use conduct a study for research design."
+    },
+    {
+      "id": "col-block-statistics-data",
+      "node_word": "data",
+      "collocation": "statistical data",
+      "pattern": "\\bstatistics data\\b",
+      "replacement": "statistical data",
+      "pattern_type": "adjective+noun",
+      "academic_function": "data type",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "statistics data -> statistical data",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Statistical data is the natural adjective-noun form."
+    },
+    {
+      "id": "col-block-big-significance",
+      "node_word": "significance",
+      "collocation": "considerable significance",
+      "pattern": "\\bbig significance\\b",
+      "replacement": "considerable significance",
+      "pattern_type": "adjective+noun",
+      "academic_function": "emphasis",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "big significance -> considerable significance",
+      "warning": "",
+      "risk_level": "Moderate",
+      "explanation": "Big is informal; check whether significance is statistical or general."
+    },
+    {
+      "id": "col-block-big-effect",
+      "node_word": "effect",
+      "collocation": "substantial effect",
+      "pattern": "\\bbig effect\\b",
+      "replacement": "substantial effect",
+      "pattern_type": "adjective+noun",
+      "academic_function": "effect statement",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "big effect -> substantial effect",
+      "warning": "",
+      "risk_level": "Moderate",
+      "explanation": "Substantial effect is more academic, but check evidence strength."
+    },
+    {
+      "id": "col-block-strongly-important",
+      "node_word": "important",
+      "collocation": "particularly important",
+      "pattern": "\\bstrongly important\\b",
+      "replacement": "particularly important",
+      "pattern_type": "adverb+adjective",
+      "academic_function": "emphasis",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "strongly important -> particularly important",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Particularly important is a natural academic intensifier."
+    },
+    {
+      "id": "col-block-ascertain-findings",
+      "node_word": "findings",
+      "collocation": "interpret findings",
+      "pattern": "\\bascertain findings\\b",
+      "replacement": "interpret findings",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding interpretation",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "ascertain findings -> interpret findings",
+      "warning": "",
+      "risk_level": "Moderate",
+      "explanation": "Interpret findings is more natural; examine findings may also fit."
+    },
+    {
+      "id": "col-block-give-result",
+      "node_word": "result",
+      "collocation": "produce a result",
+      "pattern": "\\bgive a result\\b",
+      "replacement": "produce a result",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "give a result -> produce a result",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Produce a result or yield a result is more natural."
+    },
+    {
+      "id": "col-block-take-data",
+      "node_word": "data",
+      "collocation": "collect data",
+      "pattern": "\\btake data\\b",
+      "replacement": "collect data",
+      "pattern_type": "verb+noun",
+      "academic_function": "data collection",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "take data -> collect data",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Collect data is the standard research collocation."
+    },
+    {
+      "id": "col-block-make-analysis",
+      "node_word": "analysis",
+      "collocation": "conduct an analysis",
+      "pattern": "\\bmake (?:an? )?analysis\\b",
+      "replacement": "conduct an analysis",
+      "pattern_type": "verb+noun",
+      "academic_function": "analysis process",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "make (?:an? )?analysis -> conduct an analysis",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Conduct an analysis or carry out an analysis is natural."
+    },
+    {
+      "id": "col-block-do-analysis",
+      "node_word": "analysis",
+      "collocation": "conduct an analysis",
+      "pattern": "\\bdo (?:an? )?analysis\\b",
+      "replacement": "conduct an analysis",
+      "pattern_type": "verb+noun",
+      "academic_function": "analysis process",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "do (?:an? )?analysis -> conduct an analysis",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Conduct an analysis is more academic than do analysis."
+    },
+    {
+      "id": "col-block-find-result",
+      "node_word": "result",
+      "collocation": "obtain a result",
+      "pattern": "\\bfind a result\\b",
+      "replacement": "obtain a result",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "find a result -> obtain a result",
+      "warning": "",
+      "risk_level": "Moderate",
+      "explanation": "Obtain or report a result is more natural, depending on context."
+    },
+    {
+      "id": "col-block-say-finding",
+      "node_word": "finding",
+      "collocation": "report a finding",
+      "pattern": "\\bsay a finding\\b",
+      "replacement": "report a finding",
+      "pattern_type": "verb+noun",
+      "academic_function": "finding report",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "say a finding -> report a finding",
+      "warning": "",
+      "risk_level": "Safe",
+      "explanation": "Report a finding is the natural academic expression."
+    },
+    {
+      "id": "col-block-teacher-thinks",
+      "node_word": "teacher",
+      "collocation": "teachers reported",
+      "pattern": "\\bteacher thinks\\b",
+      "replacement": "teachers reported",
+      "pattern_type": "noun+verb",
+      "academic_function": "self-reported belief",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "teacher thinks -> teachers reported",
+      "warning": "Review context before applying; this fix may affect meaning.",
+      "risk_level": "Review carefully",
+      "explanation": "This may need plural agreement and evidence-sensitive wording."
+    },
+    {
+      "id": "col-block-students-learn-better",
+      "node_word": "student",
+      "collocation": "students reported improved understanding",
+      "pattern": "\\bstudents learn better\\b",
+      "replacement": "students reported improved understanding",
+      "pattern_type": "clause",
+      "academic_function": "claim strength",
+      "best_sections": [
+        "General",
+        "Literature",
+        "Method",
+        "Findings",
+        "Discussion",
+        "Conclusion",
+        "TR Dizin",
+        "APA/Style"
+      ],
+      "example": "students learn better -> students reported improved understanding",
+      "warning": "Review context before applying; this fix may affect meaning.",
+      "risk_level": "Review carefully",
+      "explanation": "This revision avoids inventing learning gains; review against evidence."
+    }
   ]
 }
