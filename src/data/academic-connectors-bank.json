@@ -1,0 +1,20 @@
+{
+  "types": {
+    "addition": ["moreover", "furthermore", "in addition"],
+    "contrast": ["however", "in contrast", "whereas"],
+    "concession": ["although", "despite", "nevertheless"],
+    "consequence": ["therefore", "as a result", "consequently"],
+    "clarification": ["in other words", "that is"],
+    "illustration": ["for example", "for instance"],
+    "comparison": ["similarly", "likewise"],
+    "sequence": ["first", "subsequently", "finally"],
+    "summary": ["overall", "in summary"],
+    "limitation": ["however", "nevertheless", "despite this"]
+  },
+  "warnings": [
+    { "id": "conn-despite-clause", "pattern": "\\bdespite\\s+(?:the|a|an)?\\s*[A-Za-z]+\\s+(?:was|were|is|are|has|have)\\b", "risk": "Safe", "explanation": "Despite should introduce a noun phrase, not a full clause. Use although for a clause." },
+    { "id": "conn-although-phrase", "pattern": "\\balthough\\s+(?:the|a|an)\\s+[A-Za-z-]+\\s*,", "risk": "Moderate", "explanation": "Although usually introduces a full clause. If only a noun phrase follows, use despite." },
+    { "id": "conn-linking-comma", "pattern": "\\b(?:however|therefore|moreover|nevertheless)\\s+[^,]", "risk": "Safe", "explanation": "Linking adverbials normally need a comma when they open a sentence." }
+  ],
+  "overuse": ["however", "moreover", "furthermore", "therefore"]
+}

@@ -7,7 +7,8 @@
     "dev": "vite --host 127.0.0.1 --port 4173 --strictPort",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173",
-    "check": "npm run build"
+    "test": "node src/tests/smoke.test.js",
+    "check": "npm run test && npm run build"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",

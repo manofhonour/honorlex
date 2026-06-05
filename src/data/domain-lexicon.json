@@ -1,0 +1,5 @@
+[
+  { "id": "domain-elt", "term": "ELT", "pos": "domain_term", "domains": ["ELT", "applied linguistics"] },
+  { "id": "domain-cda", "term": "CDA", "pos": "domain_term", "domains": ["critical discourse analysis"] },
+  { "id": "domain-translanguaging", "term": "translanguaging", "pos": "domain_term", "domains": ["applied linguistics", "ELT"] }
+]

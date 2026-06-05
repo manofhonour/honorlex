@@ -1,0 +1,4 @@
+[
+  { "id": "family-analyze", "lemma": "analyze", "pos": "verb", "family": ["analysis", "analytical", "analytically"] },
+  { "id": "family-significant", "lemma": "significant", "pos": "adjective", "family": ["significance", "significantly"] }
+]

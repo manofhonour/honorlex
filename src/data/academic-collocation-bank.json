@@ -1,0 +1,19 @@
+{
+  "good": [
+    { "id": "col-good-conduct-research", "collocation": "conduct research", "category": "research process", "risk": "Safe", "explanation": "Natural academic verb-noun pairing." },
+    { "id": "col-good-conduct-study", "collocation": "conduct a study", "category": "research process", "risk": "Safe", "explanation": "Standard expression for carrying out a study." },
+    { "id": "col-good-empirical-evidence", "collocation": "empirical evidence", "category": "evidence", "risk": "Safe", "explanation": "Appropriate for evidence based on observation or data." },
+    { "id": "col-good-qualitative-findings", "collocation": "qualitative findings", "category": "findings", "risk": "Safe", "explanation": "Natural label for findings from qualitative data." },
+    { "id": "col-good-teacher-beliefs", "collocation": "teacher beliefs", "category": "domain", "risk": "Safe", "explanation": "Common in education research." },
+    { "id": "col-good-classroom-participation", "collocation": "classroom participation", "category": "domain", "risk": "Safe", "explanation": "Natural educational research collocation." },
+    { "id": "col-good-research-design", "collocation": "research design", "category": "method", "risk": "Safe", "explanation": "Standard methodology term." }
+  ],
+  "blocked": [
+    { "id": "col-block-make-research", "pattern": "\\bmake a research\\b", "replacement": "conduct research", "category": "research process", "risk": "Safe", "explanation": "Use conduct research, not make a research." },
+    { "id": "col-block-do-study", "pattern": "\\bdo a study\\b", "replacement": "conduct a study", "category": "research process", "risk": "Safe", "explanation": "Conduct a study is the more natural academic collocation." },
+    { "id": "col-block-statistics-data", "pattern": "\\bstatistics data\\b", "replacement": "statistical data", "category": "data", "risk": "Safe", "explanation": "Statistical data is the natural adjective-noun form." },
+    { "id": "col-block-ascertain-findings", "pattern": "\\bascertain findings\\b", "replacement": "identify findings", "category": "findings", "risk": "Moderate", "explanation": "Ascertain findings is unnatural in academic prose." },
+    { "id": "col-block-big-significance", "pattern": "\\bbig significance\\b", "replacement": "substantial significance", "category": "emphasis", "risk": "Moderate", "explanation": "Big significance is informal; check whether significance is statistical or general." },
+    { "id": "col-block-strong-evidence", "pattern": "\\bstrong evidence shows clearly\\b", "replacement": "the evidence suggests", "category": "claim strength", "risk": "Review carefully", "explanation": "The original overstates certainty and sounds mechanical." }
+  ]
+}

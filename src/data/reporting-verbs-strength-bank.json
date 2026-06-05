@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rv-show",
+    "lemma": "show",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "indicate", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Balanced verb for evidence-based findings." },
+      { "lemma": "suggest", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Preferred for qualitative and self-reported data." },
+      { "lemma": "demonstrate", "risk": "Review carefully", "sections": ["Findings"], "explanation": "Higher claim strength; use only with strong direct evidence." }
+    ]
+  },
+  {
+    "id": "rv-report",
+    "lemma": "report",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "state", "risk": "Safe", "sections": ["Findings"], "explanation": "Neutral for participant responses." },
+      { "lemma": "indicate", "risk": "Moderate", "sections": ["Findings"], "explanation": "Interprets reported data; review context." }
+    ]
+  },
+  {
+    "id": "rv-prove",
+    "lemma": "prove",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "suggest", "risk": "Safe", "sections": ["Discussion"], "explanation": "Avoid prove unless the study design truly establishes proof." },
+      { "lemma": "indicate", "risk": "Safe", "sections": ["Findings"], "explanation": "Cautious alternative to overclaiming." }
+    ]
+  }
+]

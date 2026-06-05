@@ -1,0 +1,39 @@
+[
+  {
+    "id": "syn-show",
+    "lemma": "show",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "indicate", "risk": "Safe", "sections": ["General", "Findings", "Discussion"], "explanation": "Academic and cautious for results." },
+      { "lemma": "suggest", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Useful when evidence is interpretive or qualitative." },
+      { "lemma": "demonstrate", "risk": "Review carefully", "sections": ["Findings"], "explanation": "Stronger claim; use only with direct evidence." }
+    ]
+  },
+  {
+    "id": "syn-important",
+    "lemma": "important",
+    "pos": "adjective",
+    "replacements": [
+      { "lemma": "significant", "risk": "Moderate", "sections": ["General", "Discussion"], "explanation": "Academic, but avoid if it may imply statistical significance." },
+      { "lemma": "central", "risk": "Safe", "sections": ["Literature", "Discussion"], "explanation": "Signals relevance without overclaiming." }
+    ]
+  },
+  {
+    "id": "syn-big",
+    "lemma": "big",
+    "pos": "adjective",
+    "replacements": [
+      { "lemma": "substantial", "risk": "Safe", "sections": ["General", "Findings"], "explanation": "More precise academic adjective." },
+      { "lemma": "considerable", "risk": "Safe", "sections": ["Discussion"], "explanation": "Suitable for measured emphasis." }
+    ]
+  },
+  {
+    "id": "syn-use",
+    "lemma": "use",
+    "pos": "verb",
+    "replacements": [
+      { "lemma": "employ", "risk": "Safe", "sections": ["Method"], "explanation": "Common in methodology descriptions." },
+      { "lemma": "apply", "risk": "Safe", "sections": ["Method", "Findings"], "explanation": "Good fit for tools, frameworks, and procedures." }
+    ]
+  }
+]
