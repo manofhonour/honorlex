@@ -1,4 +1,9 @@
 import "./styles.css";
+import protectedTerms from "./data/protected-terms.json";
+import synonyms from "./data/academic-synonyms.json";
+import collocations from "./data/collocations.json";
+import connectors from "./data/connectors.json";
+import reportingVerbs from "./data/reporting-verbs.json";
 
 const DEFAULT_TEXT = `This current study utilized an explanatory sequential mixed-methods design to examine Turkish secondary and high school EFL teachers' beliefs about translanguaging. The findings show that teachers reported important classroom participation outcomes. Although the small sample, the results prove that translanguaging is effective.`;
 
@@ -13,22 +18,7 @@ const state = {
 const app = document.querySelector("#app");
 const focusModes = ["General", "Literature", "Method", "Findings", "Discussion", "TR Dizin", "APA/Style"];
 
-async function loadJson(path) {
-  const response = await fetch(new URL(path, import.meta.url));
-  if (!response.ok) {
-    throw new Error(`Could not load ${path}`);
-  }
-  return response.json();
-}
-
 async function loadResources() {
-  const [protectedTerms, synonyms, collocations, connectors, reportingVerbs] = await Promise.all([
-    loadJson("./data/protected-terms.json"),
-    loadJson("./data/academic-synonyms.json"),
-    loadJson("./data/collocations.json"),
-    loadJson("./data/connectors.json"),
-    loadJson("./data/reporting-verbs.json")
-  ]);
   return { protectedTerms, synonyms, collocations, connectors, reportingVerbs };
 }
 
