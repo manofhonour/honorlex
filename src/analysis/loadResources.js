@@ -104,15 +104,42 @@ function validateSynonymCore(value) {
   if (!Array.isArray(value)) return fail("synonymCore must be an array.");
   const warnings = validateUniqueIds(value, "synonymCore");
   for (const entry of value) {
-    requireFields(entry, ["id", "lemma", "pos", "replacements"], "synonymCore", warnings);
-    validateAllowed(entry.pos, ALLOWED_POS_LABELS, `${entry.id}.pos`, warnings);
+    requireFields(entry, ["id", "lemma"], "synonymCore", warnings);
+    const pos = entry.part_of_speech || entry.pos;
+    if (!pos) warnings.push(`${entry.id}: missing required field "part_of_speech".`);
+    validateAllowed(pos, ALLOWED_POS_LABELS, `${entry.id}.part_of_speech`, warnings);
+    if (entry.risk_level) validateAllowed(entry.risk_level, ALLOWED_RISK_LEVELS, `${entry.id}.risk_level`, warnings);
+    if (entry.best_sections) validateSections(entry.best_sections, `${entry.id}.best_sections`, warnings);
+    if (entry.forms && typeof entry.forms !== "object") warnings.push(`${entry.id}.forms: forms must be an object.`);
+
+    validateAlternativeGroup(entry.safe_alternatives, "Safe", entry, warnings);
+    validateAlternativeGroup(entry.moderate_alternatives, "Moderate", entry, warnings);
+    validateAlternativeGroup(entry.risky_alternatives, "Review carefully", entry, warnings);
+
     for (const replacement of entry.replacements || []) {
       requireFields(replacement, ["lemma", "risk", "sections", "explanation"], entry.id, warnings);
       validateAllowed(replacement.risk, ALLOWED_RISK_LEVELS, `${entry.id}.risk`, warnings);
       validateSections(replacement.sections, `${entry.id}.sections`, warnings);
+      if (replacement.pos) validateAllowed(replacement.pos, ALLOWED_POS_LABELS, `${entry.id}.replacement.pos`, warnings);
     }
   }
   return ok(warnings);
+}
+
+function validateAlternativeGroup(alternatives, risk, entry, warnings) {
+  if (alternatives == null) return;
+  if (!Array.isArray(alternatives)) {
+    warnings.push(`${entry.id}.${risk}: alternatives must be an array.`);
+    return;
+  }
+  for (const alternative of alternatives) {
+    const item = typeof alternative === "string" ? { lemma: alternative } : alternative;
+    requireFields(item, ["lemma"], entry.id, warnings);
+    if (item.pos) validateAllowed(item.pos, ALLOWED_POS_LABELS, `${entry.id}.alternative.pos`, warnings);
+    if (item.sections) validateSections(item.sections, `${entry.id}.alternative.sections`, warnings);
+    if (item.risk) validateAllowed(item.risk, ALLOWED_RISK_LEVELS, `${entry.id}.alternative.risk`, warnings);
+  }
+  validateAllowed(risk, ALLOWED_RISK_LEVELS, `${entry.id}.alternatives.risk`, warnings);
 }
 
 function validateCollocationBank(value) {
@@ -208,10 +235,11 @@ function validateSections(sections, label, warnings) {
 }
 
 function normalizeResources(resources) {
+  const synonymCore = resources.synonymCore.map(normalizeSynonymEntry);
   return {
     protectedTerms: resources.protectedTerms,
-    synonymCore: resources.synonymCore,
-    synonymsByLemma: Object.fromEntries(resources.synonymCore.map((entry) => [entry.lemma, entry])),
+    synonymCore,
+    synonymsByLemma: Object.fromEntries(synonymCore.map((entry) => [entry.lemma, entry])),
     academicWordFamilies: resources.academicWordFamilies,
     collocationBank: resources.collocationBank,
     reportingVerbBank: resources.reportingVerbBank,
@@ -222,6 +250,43 @@ function normalizeResources(resources) {
     phrasePatterns: resources.phrasePatterns,
     rewriteRules: resources.rewriteRules,
     personalBlacklistDefault: resources.personalBlacklistDefault
+  };
+}
+
+function normalizeSynonymEntry(entry) {
+  const pos = entry.part_of_speech || entry.pos;
+  const bestSections = entry.best_sections || entry.sections || ["General"];
+  const replacements = entry.replacements
+    ? entry.replacements.map((replacement) => normalizeReplacement(replacement, pos, bestSections))
+    : [
+        ...normalizeAlternativeGroup(entry.safe_alternatives, "Safe", pos, bestSections),
+        ...normalizeAlternativeGroup(entry.moderate_alternatives, "Moderate", pos, bestSections),
+        ...normalizeAlternativeGroup(entry.risky_alternatives, "Review carefully", pos, bestSections)
+      ];
+
+  return {
+    ...entry,
+    pos,
+    forms: entry.forms || { base: entry.lemma },
+    context_rules: entry.context_rules || [],
+    collocation_rules: entry.collocation_rules || [],
+    best_sections: bestSections,
+    replacements
+  };
+}
+
+function normalizeAlternativeGroup(alternatives = [], risk, pos, bestSections) {
+  return alternatives.map((alternative) => normalizeReplacement(alternative, pos, bestSections, risk));
+}
+
+function normalizeReplacement(alternative, pos, bestSections, fallbackRisk) {
+  const item = typeof alternative === "string" ? { lemma: alternative } : alternative;
+  return {
+    lemma: item.lemma,
+    pos: item.pos || pos,
+    risk: item.risk || fallbackRisk || "Safe",
+    sections: item.sections || item.best_sections || bestSections,
+    explanation: item.explanation || "Common academic alternative with matching part of speech."
   };
 }
 
