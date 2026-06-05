@@ -65,12 +65,25 @@ function renderSuggestion(item) {
       </div>
       <p class="swap"><span>${escapeHtml(item.original)}</span><b></b><span>${escapeHtml(item.replacement)}</span></p>
       <p>${escapeHtml(item.explanation)}</p>
+      ${renderScores(item.scores)}
       <div class="suggestion-actions">
         <small>${escapeHtml(item.meta)}</small>
         <button data-apply="${item.id}">Apply</button>
       </div>
     </article>
   `;
+}
+
+function renderScores(scores) {
+  if (!scores) return "";
+  const rows = [
+    ["Grammar", scores.grammar_fit_score],
+    ["Collocation", scores.collocation_fit_score],
+    ["Naturalness", scores.academic_naturalness_score],
+    ["Claim risk", scores.claim_risk_score],
+    ["Overall", scores.overall_score]
+  ];
+  return `<div class="score-grid">${rows.map(([label, value]) => `<span>${label}<strong>${value}</strong></span>`).join("")}</div>`;
 }
 
 function highlightText(text, protectedRanges) {

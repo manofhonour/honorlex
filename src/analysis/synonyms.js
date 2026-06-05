@@ -1,5 +1,6 @@
 import { describeSurface } from "./pos.js";
 import { inflectReplacement } from "./inflection.js";
+import { MINIMUM_SUGGESTION_QUALITY, scoreSynonymCandidate } from "./ranking.js";
 
 export function analyzeSynonyms({ text, focus, resources, addSuggestion }) {
   const wordRe = /\b[A-Za-z][A-Za-z'-]*\b/g;
@@ -19,15 +20,18 @@ export function analyzeSynonyms({ text, focus, resources, addSuggestion }) {
       const sections = candidate.sections || candidate.focus || [];
       if (!sections.includes(focus) && !sections.includes("General")) continue;
       const inflected = inflectReplacement(context, candidate.lemma, candidate.pos || entry.pos);
+      const ranking = scoreSynonymCandidate({ entry, candidate, context, focus, text, resources, inflected });
+      if (ranking.blocked || ranking.scores.overall_score < MINIMUM_SUGGESTION_QUALITY) continue;
       addSuggestion({
-        kind: inflected.phraseRewrite ? "Phrase Rewrite" : "Synonym",
+        kind: inflected.phraseRewrite ? "Phrase Rewrite" : ranking.category,
         start: match.index,
         end: match.index + surface.length,
         original: surface,
         replacement: inflected.replacement,
         risk: candidate.risk,
-        explanation: candidate.explanation,
-        meta: inflected.phraseRewrite ? `${context.pos} to ${candidate.pos}` : `${entry.pos} preserved`
+        explanation: `${candidate.explanation} ${ranking.explanation}`,
+        meta: inflected.phraseRewrite ? `${context.pos} to ${candidate.pos}` : `${entry.pos} preserved`,
+        scores: ranking.scores
       });
     }
   }

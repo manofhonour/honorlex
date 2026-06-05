@@ -40,9 +40,52 @@ export function testSynonyms() {
   const sentenceSuggestions = analyzeText({ text: "This shows the pattern. These findings show a cautious trend.", focus: "Findings", resources: getTestResources() }).suggestions;
   assert.ok(hasSuggestion(sentenceSuggestions, "shows", "indicates"));
   assert.ok(hasSuggestion(sentenceSuggestions, "show", "suggest"));
+  const rankedShow = sentenceSuggestions.find((item) => item.original === "shows" && item.replacement === "indicates");
+  assert.equal(rankedShow.kind, "Reporting Verb");
+  assert.equal(rankedShow.scores.grammar_fit_score, 100);
+  assert.ok(rankedShow.scores.overall_score >= 60);
+  assert.match(rankedShow.explanation, /preserves present form|academic alternative/);
 
   const adverbSuggestions = analyzeText({ text: "The difference was significantly larger.", focus: "General", resources: getTestResources() }).suggestions;
   assert.ok(hasSuggestion(adverbSuggestions, "significantly", "substantially"));
   assert.ok(hasSuggestion(adverbSuggestions, "significantly", "considerably"));
   assert.ok(!adverbSuggestions.some((item) => item.original === "significantly" && item.replacement === "substantial"));
+
+  const rankingResources = structuredClone(resources);
+  rankingResources.synonymsByLemma.show.replacements.push({
+    lemma: "demonstrate",
+    pos: "verb",
+    risk: "Review carefully",
+    sections: ["General", "Findings"],
+    explanation: "Stronger reporting verb."
+  });
+  const rankingSuggestions = analyzeText({ text: "The study showed results.", focus: "Findings", resources: rankingResources }).suggestions.filter((item) => item.original === "showed");
+  assert.ok(hasSuggestion(rankingSuggestions, "showed", "indicated"));
+  assert.ok(hasSuggestion(rankingSuggestions, "showed", "demonstrated"));
+  assert.ok(rankingSuggestions.findIndex((item) => item.replacement === "indicated") < rankingSuggestions.findIndex((item) => item.replacement === "demonstrated"));
+  assert.ok(rankingSuggestions.find((item) => item.replacement === "demonstrated").scores.claim_risk_score > 70);
+
+  const blacklistResources = structuredClone(resources);
+  blacklistResources.personalBlacklistDefault = [{ id: "blacklist-indicate", term: "indicate" }];
+  const blacklistSuggestions = analyzeText({ text: "This shows the pattern.", focus: "General", resources: blacklistResources }).suggestions;
+  assert.ok(!hasSuggestion(blacklistSuggestions, "shows", "indicates"));
+
+  const protectedReplacementResources = structuredClone(resources);
+  protectedReplacementResources.synonymsByLemma.show.replacements.push({
+    lemma: "CDA",
+    pos: "verb",
+    risk: "Safe",
+    sections: ["General"],
+    explanation: "Invalid protected replacement."
+  });
+  protectedReplacementResources.synonymsByLemma.show.replacements.push({
+    lemma: "analysis",
+    pos: "noun",
+    risk: "Safe",
+    sections: ["General"],
+    explanation: "Invalid POS replacement."
+  });
+  const protectedReplacementSuggestions = analyzeText({ text: "This shows the pattern.", focus: "General", resources: protectedReplacementResources }).suggestions;
+  assert.ok(!hasSuggestion(protectedReplacementSuggestions, "shows", "CDA"));
+  assert.ok(!hasSuggestion(protectedReplacementSuggestions, "shows", "analysis"));
 }
