@@ -158,6 +158,18 @@ function validateReportingVerbBank(value) {
   if (!Array.isArray(value)) return fail("reportingVerbBank must be an array.");
   const warnings = validateUniqueIds(value, "reportingVerbBank");
   for (const entry of value) {
+    const isNewSchema = entry.verb != null;
+    if (isNewSchema) {
+      requireFields(entry, ["id", "verb", "forms", "strength_level", "certainty_level", "stance", "best_sections", "safer_alternatives", "stronger_alternatives", "risk_level"], "reportingVerbBank", warnings);
+      validateAllowed(entry.risk_level, ALLOWED_RISK_LEVELS, `${entry.id}.risk_level`, warnings);
+      validateSections(entry.best_sections || [], `${entry.id}.best_sections`, warnings);
+      validateAllowed(entry.strength_level, ["cautious", "neutral", "strong", "absolute"], `${entry.id}.strength_level`, warnings);
+      validateAllowed(entry.certainty_level, ["tentative", "moderate", "confident", "absolute"], `${entry.id}.certainty_level`, warnings);
+      validateAllowed(entry.stance, ["neutral reporting", "author position", "critical stance", "finding report", "method description", "interpretation", "argumentation", "limitation"], `${entry.id}.stance`, warnings);
+      validateReportingAlternatives(entry.safer_alternatives, entry, warnings);
+      validateReportingAlternatives(entry.stronger_alternatives, entry, warnings);
+      continue;
+    }
     requireFields(entry, ["id", "lemma", "pos", "replacements"], "reportingVerbBank", warnings);
     validateAllowed(entry.pos, ALLOWED_POS_LABELS, `${entry.id}.pos`, warnings);
     for (const replacement of entry.replacements || []) {
@@ -167,6 +179,19 @@ function validateReportingVerbBank(value) {
     }
   }
   return ok(warnings);
+}
+
+function validateReportingAlternatives(alternatives, entry, warnings) {
+  if (!Array.isArray(alternatives)) {
+    warnings.push(`${entry.id}: alternatives must be arrays.`);
+    return;
+  }
+  for (const alternative of alternatives) {
+    const item = typeof alternative === "string" ? { verb: alternative } : alternative;
+    requireFields(item, ["verb"], entry.id, warnings);
+    if (item.risk) validateAllowed(item.risk, ALLOWED_RISK_LEVELS, `${entry.id}.alternative.risk`, warnings);
+    if (item.sections) validateSections(item.sections, `${entry.id}.alternative.sections`, warnings);
+  }
 }
 
 function validateConnectorBank(value) {
@@ -236,14 +261,16 @@ function validateSections(sections, label, warnings) {
 
 function normalizeResources(resources) {
   const synonymCore = resources.synonymCore.map(normalizeSynonymEntry);
+  const reportingVerbBank = resources.reportingVerbBank.map(normalizeReportingVerbEntry);
   return {
     protectedTerms: resources.protectedTerms,
     synonymCore,
     synonymsByLemma: Object.fromEntries(synonymCore.map((entry) => [entry.lemma, entry])),
     academicWordFamilies: resources.academicWordFamilies,
     collocationBank: resources.collocationBank,
-    reportingVerbBank: resources.reportingVerbBank,
-    reportingVerbsByLemma: Object.fromEntries(resources.reportingVerbBank.map((entry) => [entry.lemma, entry.replacements])),
+    reportingVerbBank,
+    reportingVerbsByLemma: Object.fromEntries(reportingVerbBank.map((entry) => [entry.verb, entry.replacements])),
+    reportingVerbsByForm: createReportingVerbFormMap(reportingVerbBank),
     connectorBank: resources.connectorBank,
     cautiousWordingBank: resources.cautiousWordingBank,
     domainLexicon: resources.domainLexicon,
@@ -251,6 +278,65 @@ function normalizeResources(resources) {
     rewriteRules: resources.rewriteRules,
     personalBlacklistDefault: resources.personalBlacklistDefault
   };
+}
+
+function normalizeReportingVerbEntry(entry) {
+  if (!entry.verb) {
+    return {
+      ...entry,
+      verb: entry.lemma,
+      forms: entry.forms || { base: entry.lemma },
+      strength_level: "neutral",
+      certainty_level: "moderate",
+      stance: "neutral reporting",
+      best_sections: entry.sections || ["General"],
+      safe_use: "",
+      risky_use: "",
+      safer_alternatives: entry.replacements || [],
+      stronger_alternatives: [],
+      common_patterns: [],
+      risk_level: "Safe",
+      replacements: entry.replacements || []
+    };
+  }
+
+  const replacements = [
+    ...normalizeReportingAlternativeGroup(entry.safer_alternatives, "Safe", entry),
+    ...normalizeReportingAlternativeGroup(entry.stronger_alternatives, "Review carefully", entry)
+  ];
+
+  return {
+    ...entry,
+    pos: "verb",
+    replacements
+  };
+}
+
+function normalizeReportingAlternativeGroup(alternatives = [], fallbackRisk, entry) {
+  return alternatives.map((alternative) => {
+    const item = typeof alternative === "string" ? { verb: alternative } : alternative;
+    return {
+      lemma: item.verb,
+      pos: "verb",
+      risk: item.risk || fallbackRisk,
+      sections: item.sections || entry.best_sections || ["General"],
+      explanation: item.explanation || `Reporting verb alternative for ${entry.verb}.`,
+      strength_level: item.strength_level || entry.strength_level,
+      certainty_level: item.certainty_level || entry.certainty_level,
+      warning: item.warning || entry.warning
+    };
+  });
+}
+
+function createReportingVerbFormMap(entries) {
+  const pairs = [];
+  for (const entry of entries) {
+    const forms = Object.values(entry.forms || {}).flat().filter(Boolean);
+    for (const form of [entry.verb, ...forms]) {
+      pairs.push([form.toLowerCase(), entry]);
+    }
+  }
+  return Object.fromEntries(pairs.sort((a, b) => b[0].length - a[0].length));
 }
 
 function normalizeSynonymEntry(entry) {

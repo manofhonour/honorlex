@@ -6,6 +6,7 @@ import { testCollocations } from "./collocations.test.js";
 import { testConnectors } from "./connectors.test.js";
 import { testPosInflection } from "./posInflection.test.js";
 import { testProtectedTerms } from "./protectedTerms.test.js";
+import { testReportingVerbs } from "./reportingVerbs.test.js";
 import { testSynonyms } from "./synonyms.test.js";
 import { assert } from "./testUtils.js";
 
@@ -19,6 +20,7 @@ function smoke() {
 const tests = [
   smoke,
   testProtectedTerms,
+  testReportingVerbs,
   testPosInflection,
   testSynonyms,
   testConnectors,

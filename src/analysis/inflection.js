@@ -85,7 +85,10 @@ function inflectVerbPhrase(sourceContext, phrase) {
     if (form === "past" || form === "pastParticiple") return "carried out";
     if (sourceContext.verb?.agreement === "thirdPersonSingular") return "carries out";
   }
-  return phrase;
+  if (phrase.startsWith("may ")) return phrase;
+  const [head, ...rest] = phrase.split(" ");
+  if (!rest.length) return phrase;
+  return `${inflectVerbByContext(sourceContext, head)} ${rest.join(" ")}`;
 }
 
 function toPast(lemma) {

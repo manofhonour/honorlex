@@ -1,31 +1,5158 @@
 [
   {
-    "id": "rv-show",
-    "lemma": "show",
-    "pos": "verb",
-    "replacements": [
-      { "lemma": "indicate", "pos": "verb", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Balanced verb for evidence-based findings." },
-      { "lemma": "suggest", "pos": "verb", "risk": "Safe", "sections": ["Findings", "Discussion"], "explanation": "Preferred for qualitative and self-reported data." },
-      { "lemma": "illustrate", "pos": "verb", "risk": "Safe", "sections": ["Findings"], "explanation": "Useful for presenting evidence without overclaiming." },
-      { "lemma": "demonstrate", "pos": "verb", "risk": "Review carefully", "sections": ["Findings"], "explanation": "Higher claim strength; use only with strong direct evidence." }
-    ]
+    "id": "rv-001-state",
+    "verb": "state",
+    "forms": {
+      "base": "state",
+      "third_person": "states",
+      "past": "stated",
+      "ing": "stating",
+      "past_participle": "stated"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "report",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"state\" that reduces claim strength."
+      },
+      {
+        "verb": "note",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"state\" that reduces claim strength."
+      },
+      {
+        "verb": "mention",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"state\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"state\"; check evidence before using."
+      },
+      {
+        "verb": "claim",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"state\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study states that..."
+    ],
+    "original_example": "The study states the issue.",
+    "warning": "",
+    "risk_level": "Safe"
   },
   {
-    "id": "rv-report",
-    "lemma": "report",
-    "pos": "verb",
-    "replacements": [
-      { "lemma": "state", "pos": "verb", "risk": "Safe", "sections": ["Findings"], "explanation": "Neutral for participant responses." },
-      { "lemma": "indicate", "pos": "verb", "risk": "Moderate", "sections": ["Findings"], "explanation": "Interprets reported data; review context." }
-    ]
+    "id": "rv-002-note",
+    "verb": "note",
+    "forms": {
+      "base": "note",
+      "third_person": "notes",
+      "past": "noted",
+      "ing": "noting",
+      "past_participle": "noted"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "state",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"note\" that reduces claim strength."
+      },
+      {
+        "verb": "report",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"note\" that reduces claim strength."
+      },
+      {
+        "verb": "mention",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"note\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "argue",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"note\"; check evidence before using."
+      },
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"note\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study notes that..."
+    ],
+    "original_example": "The study notes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
   },
   {
-    "id": "rv-prove",
-    "lemma": "prove",
-    "pos": "verb",
-    "replacements": [
-      { "lemma": "suggest", "pos": "verb", "risk": "Safe", "sections": ["Discussion"], "explanation": "Avoid prove unless the study design truly establishes proof." },
-      { "lemma": "indicate", "pos": "verb", "risk": "Safe", "sections": ["Findings"], "explanation": "Cautious alternative to overclaiming." }
-    ]
+    "id": "rv-003-report",
+    "verb": "report",
+    "forms": {
+      "base": "report",
+      "third_person": "reports",
+      "past": "reported",
+      "ing": "reporting",
+      "past_participle": "reported"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "state",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"report\" that reduces claim strength."
+      },
+      {
+        "verb": "note",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"report\" that reduces claim strength."
+      },
+      {
+        "verb": "describe",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"report\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"report\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "Participants reported that..."
+    ],
+    "original_example": "Participants reported that they used translanguaging selectively.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-004-mention",
+    "verb": "mention",
+    "forms": {
+      "base": "mention",
+      "third_person": "mentions",
+      "past": "mentioned",
+      "ing": "mentioning",
+      "past_participle": "mentioned"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "note",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"mention\" that reduces claim strength."
+      },
+      {
+        "verb": "state",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"mention\" that reduces claim strength."
+      },
+      {
+        "verb": "refer to",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"mention\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"mention\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study mentions that..."
+    ],
+    "original_example": "The study mentions the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-005-describe",
+    "verb": "describe",
+    "forms": {
+      "base": "describe",
+      "third_person": "describes",
+      "past": "described",
+      "ing": "describing",
+      "past_participle": "described"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "outline",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"describe\" that reduces claim strength."
+      },
+      {
+        "verb": "present",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"describe\" that reduces claim strength."
+      },
+      {
+        "verb": "explain",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"describe\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"describe\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study describes that..."
+    ],
+    "original_example": "The study describes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-006-observe",
+    "verb": "observe",
+    "forms": {
+      "base": "observe",
+      "third_person": "observes",
+      "past": "observed",
+      "ing": "observing",
+      "past_participle": "observed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "note",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"observe\" that reduces claim strength."
+      },
+      {
+        "verb": "identify",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"observe\" that reduces claim strength."
+      },
+      {
+        "verb": "report",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"observe\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "confirm",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"observe\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study observes that..."
+    ],
+    "original_example": "The study observes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-007-present",
+    "verb": "present",
+    "forms": {
+      "base": "present",
+      "third_person": "presents",
+      "past": "presented",
+      "ing": "presenting",
+      "past_participle": "presented"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "outline",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"present\" that reduces claim strength."
+      },
+      {
+        "verb": "summarize",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"present\" that reduces claim strength."
+      },
+      {
+        "verb": "describe",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"present\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"present\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study presents that..."
+    ],
+    "original_example": "The study presents the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-008-outline",
+    "verb": "outline",
+    "forms": {
+      "base": "outline",
+      "third_person": "outlines",
+      "past": "outlined",
+      "ing": "outlining",
+      "past_participle": "outlined"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "summarize",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"outline\" that reduces claim strength."
+      },
+      {
+        "verb": "present",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"outline\" that reduces claim strength."
+      },
+      {
+        "verb": "describe",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"outline\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"outline\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study outlines that..."
+    ],
+    "original_example": "The study outlines the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-009-summarize",
+    "verb": "summarize",
+    "forms": {
+      "base": "summarize",
+      "third_person": "summarizes",
+      "past": "summarized",
+      "ing": "summarizing",
+      "past_participle": "summarized"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "review",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"summarize\" that reduces claim strength."
+      },
+      {
+        "verb": "outline",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"summarize\" that reduces claim strength."
+      },
+      {
+        "verb": "present",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"summarize\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "argue",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"summarize\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study summarizes that..."
+    ],
+    "original_example": "The study summarizes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-010-review",
+    "verb": "review",
+    "forms": {
+      "base": "review",
+      "third_person": "reviews",
+      "past": "reviewed",
+      "ing": "reviewing",
+      "past_participle": "reviewed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "summarize",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"review\" that reduces claim strength."
+      },
+      {
+        "verb": "discuss",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"review\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"review\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "critique",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"review\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study reviews that..."
+    ],
+    "original_example": "The study reviews the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-011-discuss",
+    "verb": "discuss",
+    "forms": {
+      "base": "discuss",
+      "third_person": "discusses",
+      "past": "discussed",
+      "ing": "discussing",
+      "past_participle": "discussed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"discuss\" that reduces claim strength."
+      },
+      {
+        "verb": "consider",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"discuss\" that reduces claim strength."
+      },
+      {
+        "verb": "review",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"discuss\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "argue",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"discuss\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study discusses that..."
+    ],
+    "original_example": "The study discusses the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-012-explain",
+    "verb": "explain",
+    "forms": {
+      "base": "explain",
+      "third_person": "explains",
+      "past": "explained",
+      "ing": "explaining",
+      "past_participle": "explained"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "interpretation",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "clarify",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"explain\" that reduces claim strength."
+      },
+      {
+        "verb": "describe",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"explain\" that reduces claim strength."
+      },
+      {
+        "verb": "account for",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"explain\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"explain\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study explains that..."
+    ],
+    "original_example": "The study explains the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-013-define",
+    "verb": "define",
+    "forms": {
+      "base": "define",
+      "third_person": "defines",
+      "past": "defined",
+      "ing": "defining",
+      "past_participle": "defined"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "confident",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "describe",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"define\" that reduces claim strength."
+      },
+      {
+        "verb": "specify",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"define\" that reduces claim strength."
+      },
+      {
+        "verb": "clarify",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"define\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"define\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study defines that..."
+    ],
+    "original_example": "The study defines the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-014-introduce",
+    "verb": "introduce",
+    "forms": {
+      "base": "introduce",
+      "third_person": "introduces",
+      "past": "introduced",
+      "ing": "introducing",
+      "past_participle": "introduced"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "present",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"introduce\" that reduces claim strength."
+      },
+      {
+        "verb": "outline",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"introduce\" that reduces claim strength."
+      },
+      {
+        "verb": "describe",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"introduce\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"introduce\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study introduces that..."
+    ],
+    "original_example": "The study introduces the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-015-examine",
+    "verb": "examine",
+    "forms": {
+      "base": "examine",
+      "third_person": "examines",
+      "past": "examined",
+      "ing": "examining",
+      "past_participle": "examined"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "investigate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"examine\" that reduces claim strength."
+      },
+      {
+        "verb": "analyze",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"examine\" that reduces claim strength."
+      },
+      {
+        "verb": "assess",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"examine\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"examine\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "Previous studies have examined..."
+    ],
+    "original_example": "The study examines the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-016-investigate",
+    "verb": "investigate",
+    "forms": {
+      "base": "investigate",
+      "third_person": "investigates",
+      "past": "investigated",
+      "ing": "investigating",
+      "past_participle": "investigated"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"investigate\" that reduces claim strength."
+      },
+      {
+        "verb": "explore",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"investigate\" that reduces claim strength."
+      },
+      {
+        "verb": "assess",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"investigate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"investigate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study investigates that..."
+    ],
+    "original_example": "The study investigates the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-017-explore",
+    "verb": "explore",
+    "forms": {
+      "base": "explore",
+      "third_person": "explores",
+      "past": "explored",
+      "ing": "exploring",
+      "past_participle": "explored"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"explore\" that reduces claim strength."
+      },
+      {
+        "verb": "investigate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"explore\" that reduces claim strength."
+      },
+      {
+        "verb": "consider",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"explore\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"explore\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study explores that..."
+    ],
+    "original_example": "The study explores the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-018-analyze",
+    "verb": "analyze",
+    "forms": {
+      "base": "analyze",
+      "third_person": "analyzes",
+      "past": "analyzed",
+      "ing": "analyzing",
+      "past_participle": "analyzed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"analyze\" that reduces claim strength."
+      },
+      {
+        "verb": "evaluate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"analyze\" that reduces claim strength."
+      },
+      {
+        "verb": "interpret",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"analyze\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"analyze\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study analyzes that..."
+    ],
+    "original_example": "The study analyzes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-019-analyse",
+    "verb": "analyse",
+    "forms": {
+      "base": "analyse",
+      "third_person": "analyses",
+      "past": "analysed",
+      "ing": "analysing",
+      "past_participle": "analysed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"analyse\" that reduces claim strength."
+      },
+      {
+        "verb": "evaluate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"analyse\" that reduces claim strength."
+      },
+      {
+        "verb": "interpret",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"analyse\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"analyse\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study analyses that..."
+    ],
+    "original_example": "The study analyses the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-020-assess",
+    "verb": "assess",
+    "forms": {
+      "base": "assess",
+      "third_person": "assesses",
+      "past": "assessed",
+      "ing": "assessing",
+      "past_participle": "assessed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "evaluate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"assess\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"assess\" that reduces claim strength."
+      },
+      {
+        "verb": "measure",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"assess\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "confirm",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"assess\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study assesses that..."
+    ],
+    "original_example": "The study assesses the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-021-evaluate",
+    "verb": "evaluate",
+    "forms": {
+      "base": "evaluate",
+      "third_person": "evaluates",
+      "past": "evaluated",
+      "ing": "evaluating",
+      "past_participle": "evaluated"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "assess",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"evaluate\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"evaluate\" that reduces claim strength."
+      },
+      {
+        "verb": "interpret",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"evaluate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"evaluate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study evaluates that..."
+    ],
+    "original_example": "The study evaluates the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-022-compare",
+    "verb": "compare",
+    "forms": {
+      "base": "compare",
+      "third_person": "compares",
+      "past": "compared",
+      "ing": "comparing",
+      "past_participle": "compared"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "contrast",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"compare\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"compare\" that reduces claim strength."
+      },
+      {
+        "verb": "relate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"compare\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"compare\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study compares that..."
+    ],
+    "original_example": "The study compares the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-023-contrast",
+    "verb": "contrast",
+    "forms": {
+      "base": "contrast",
+      "third_person": "contrasts",
+      "past": "contrasted",
+      "ing": "contrasting",
+      "past_participle": "contrasted"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "compare",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"contrast\" that reduces claim strength."
+      },
+      {
+        "verb": "differentiate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"contrast\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"contrast\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"contrast\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study contrasts that..."
+    ],
+    "original_example": "The study contrasts the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-024-identify",
+    "verb": "identify",
+    "forms": {
+      "base": "identify",
+      "third_person": "identifies",
+      "past": "identified",
+      "ing": "identifying",
+      "past_participle": "identified"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "find",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"identify\" that reduces claim strength."
+      },
+      {
+        "verb": "observe",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"identify\" that reduces claim strength."
+      },
+      {
+        "verb": "report",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"identify\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "confirm",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"identify\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study identifies that..."
+    ],
+    "original_example": "The study identifies the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-025-determine",
+    "verb": "determine",
+    "forms": {
+      "base": "determine",
+      "third_person": "determines",
+      "past": "determined",
+      "ing": "determining",
+      "past_participle": "determined"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "identify",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"determine\" that reduces claim strength."
+      },
+      {
+        "verb": "estimate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"determine\" that reduces claim strength."
+      },
+      {
+        "verb": "assess",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"determine\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"determine\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study determines that..."
+    ],
+    "original_example": "The study determines the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-026-measure",
+    "verb": "measure",
+    "forms": {
+      "base": "measure",
+      "third_person": "measures",
+      "past": "measured",
+      "ing": "measuring",
+      "past_participle": "measured"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "assess",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"measure\" that reduces claim strength."
+      },
+      {
+        "verb": "calculate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"measure\" that reduces claim strength."
+      },
+      {
+        "verb": "estimate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"measure\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "confirm",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"measure\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study measures that..."
+    ],
+    "original_example": "The study measures the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-027-test",
+    "verb": "test",
+    "forms": {
+      "base": "test",
+      "third_person": "tests",
+      "past": "tested",
+      "ing": "testing",
+      "past_participle": "tested"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"test\" that reduces claim strength."
+      },
+      {
+        "verb": "assess",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"test\" that reduces claim strength."
+      },
+      {
+        "verb": "evaluate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"test\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"test\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study tests that..."
+    ],
+    "original_example": "The study tests the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-028-estimate",
+    "verb": "estimate",
+    "forms": {
+      "base": "estimate",
+      "third_person": "estimates",
+      "past": "estimated",
+      "ing": "estimating",
+      "past_participle": "estimated"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "calculate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"estimate\" that reduces claim strength."
+      },
+      {
+        "verb": "approximate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"estimate\" that reduces claim strength."
+      },
+      {
+        "verb": "measure",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"estimate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "determine",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"estimate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study estimates that..."
+    ],
+    "original_example": "The study estimates the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-029-calculate",
+    "verb": "calculate",
+    "forms": {
+      "base": "calculate",
+      "third_person": "calculates",
+      "past": "calculated",
+      "ing": "calculating",
+      "past_participle": "calculated"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "confident",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "estimate",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"calculate\" that reduces claim strength."
+      },
+      {
+        "verb": "measure",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"calculate\" that reduces claim strength."
+      },
+      {
+        "verb": "compute",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"calculate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"calculate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study calculates that..."
+    ],
+    "original_example": "The study calculates the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-030-classify",
+    "verb": "classify",
+    "forms": {
+      "base": "classify",
+      "third_person": "classifies",
+      "past": "classified",
+      "ing": "classifying",
+      "past_participle": "classified"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "categorize",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"classify\" that reduces claim strength."
+      },
+      {
+        "verb": "code",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"classify\" that reduces claim strength."
+      },
+      {
+        "verb": "group",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"classify\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"classify\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study classifies that..."
+    ],
+    "original_example": "The study classifies the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-031-categorize",
+    "verb": "categorize",
+    "forms": {
+      "base": "categorize",
+      "third_person": "categorizes",
+      "past": "categorized",
+      "ing": "categorizing",
+      "past_participle": "categorized"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "classify",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"categorize\" that reduces claim strength."
+      },
+      {
+        "verb": "code",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"categorize\" that reduces claim strength."
+      },
+      {
+        "verb": "group",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"categorize\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"categorize\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study categorizes that..."
+    ],
+    "original_example": "The study categorizes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-032-code",
+    "verb": "code",
+    "forms": {
+      "base": "code",
+      "third_person": "codes",
+      "past": "coded",
+      "ing": "coding",
+      "past_participle": "coded"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "categorize",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"code\" that reduces claim strength."
+      },
+      {
+        "verb": "classify",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"code\" that reduces claim strength."
+      },
+      {
+        "verb": "label",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"code\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"code\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study codes that..."
+    ],
+    "original_example": "The study codes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-033-find",
+    "verb": "find",
+    "forms": {
+      "base": "find",
+      "third_person": "finds",
+      "past": "found",
+      "ing": "finding",
+      "past_participle": "found"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "identify",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"find\" that reduces claim strength."
+      },
+      {
+        "verb": "observe",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"find\" that reduces claim strength."
+      },
+      {
+        "verb": "report",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"find\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"find\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study found that..."
+    ],
+    "original_example": "The study finds the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-034-show",
+    "verb": "show",
+    "forms": {
+      "base": "show",
+      "third_person": "shows",
+      "past": "showed",
+      "ing": "showing",
+      "past_participle": "shown"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"show\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"show\" that reduces claim strength."
+      },
+      {
+        "verb": "illustrate",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"show\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"show\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The findings show that..."
+    ],
+    "original_example": "The findings showed a change in classroom participation.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-035-indicate",
+    "verb": "indicate",
+    "forms": {
+      "base": "indicate",
+      "third_person": "indicates",
+      "past": "indicated",
+      "ing": "indicating",
+      "past_participle": "indicated"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"indicate\" that reduces claim strength."
+      },
+      {
+        "verb": "point to",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"indicate\" that reduces claim strength."
+      },
+      {
+        "verb": "show",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"indicate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"indicate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The results indicate that...",
+      "The findings indicate..."
+    ],
+    "original_example": "The study indicates the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-036-suggest",
+    "verb": "suggest",
+    "forms": {
+      "base": "suggest",
+      "third_person": "suggests",
+      "past": "suggested",
+      "ing": "suggesting",
+      "past_participle": "suggested"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"suggest\" that reduces claim strength."
+      },
+      {
+        "verb": "imply",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"suggest\" that reduces claim strength."
+      },
+      {
+        "verb": "point to",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"suggest\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"suggest\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The findings suggest that...",
+      "The data suggest..."
+    ],
+    "original_example": "The findings suggest that context shaped teacher beliefs.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-037-reveal",
+    "verb": "reveal",
+    "forms": {
+      "base": "reveal",
+      "third_person": "reveals",
+      "past": "revealed",
+      "ing": "revealing",
+      "past_participle": "revealed"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "show",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"reveal\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"reveal\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"reveal\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"reveal\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The analysis revealed..."
+    ],
+    "original_example": "The study reveals the issue.",
+    "warning": "\"reveal\" may sound dramatic if overused.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-038-demonstrate",
+    "verb": "demonstrate",
+    "forms": {
+      "base": "demonstrate",
+      "third_person": "demonstrates",
+      "past": "demonstrated",
+      "ing": "demonstrating",
+      "past_participle": "demonstrated"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"demonstrate\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"demonstrate\" that reduces claim strength."
+      },
+      {
+        "verb": "show",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"demonstrate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"demonstrate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study demonstrates that..."
+    ],
+    "original_example": "The study demonstrates the issue.",
+    "warning": "\"demonstrate\" may overstate evidence if based on self-reported data.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-039-establish",
+    "verb": "establish",
+    "forms": {
+      "base": "establish",
+      "third_person": "establishes",
+      "past": "established",
+      "ing": "establishing",
+      "past_participle": "established"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "argumentation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"establish\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"establish\" that reduces claim strength."
+      },
+      {
+        "verb": "support",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"establish\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"establish\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study establishes that..."
+    ],
+    "original_example": "The study establishes the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-040-confirm",
+    "verb": "confirm",
+    "forms": {
+      "base": "confirm",
+      "third_person": "confirms",
+      "past": "confirmed",
+      "ing": "confirming",
+      "past_participle": "confirmed"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "support",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"confirm\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"confirm\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"confirm\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"confirm\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study confirms that..."
+    ],
+    "original_example": "The study confirms the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-041-prove",
+    "verb": "prove",
+    "forms": {
+      "base": "prove",
+      "third_person": "proves",
+      "past": "proved",
+      "ing": "proving",
+      "past_participle": "proved"
+    },
+    "strength_level": "absolute",
+    "certainty_level": "absolute",
+    "stance": "argumentation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"prove\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"prove\" that reduces claim strength."
+      },
+      {
+        "verb": "support",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"prove\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [],
+    "common_patterns": [
+      "The study proves that..."
+    ],
+    "original_example": "The results prove that the intervention is effective.",
+    "warning": "\"prove\" is usually too strong for social science and qualitative findings.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-042-imply",
+    "verb": "imply",
+    "forms": {
+      "base": "imply",
+      "third_person": "implies",
+      "past": "implied",
+      "ing": "implying",
+      "past_participle": "implied"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"imply\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"imply\" that reduces claim strength."
+      },
+      {
+        "verb": "point to",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"imply\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"imply\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study implies that..."
+    ],
+    "original_example": "The study implies the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-043-point-out",
+    "verb": "point out",
+    "forms": {
+      "base": "point out",
+      "third_person": "points out",
+      "past": "pointed out",
+      "ing": "pointing out",
+      "past_participle": "pointed out"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "neutral reporting",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "note",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"point out\" that reduces claim strength."
+      },
+      {
+        "verb": "highlight",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"point out\" that reduces claim strength."
+      },
+      {
+        "verb": "identify",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"point out\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"point out\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study points out that..."
+    ],
+    "original_example": "The study points out the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-044-highlight",
+    "verb": "highlight",
+    "forms": {
+      "base": "highlight",
+      "third_person": "highlights",
+      "past": "highlighted",
+      "ing": "highlighting",
+      "past_participle": "highlighted"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "interpretation",
+    "best_sections": [
+      "General",
+      "Literature",
+      "Method",
+      "Findings",
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "emphasize",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"highlight\" that reduces claim strength."
+      },
+      {
+        "verb": "note",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"highlight\" that reduces claim strength."
+      },
+      {
+        "verb": "identify",
+        "risk": "Safe",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"highlight\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "General",
+          "Literature",
+          "Method",
+          "Findings",
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"highlight\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study highlights that..."
+    ],
+    "original_example": "The study highlights the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-045-illustrate",
+    "verb": "illustrate",
+    "forms": {
+      "base": "illustrate",
+      "third_person": "illustrates",
+      "past": "illustrated",
+      "ing": "illustrating",
+      "past_participle": "illustrated"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "finding report",
+    "best_sections": [
+      "Findings",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "show",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"illustrate\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"illustrate\" that reduces claim strength."
+      },
+      {
+        "verb": "present",
+        "risk": "Safe",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"illustrate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "demonstrate",
+        "risk": "Review carefully",
+        "sections": [
+          "Findings",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"illustrate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study illustrates that..."
+    ],
+    "original_example": "The study illustrates the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-046-argue",
+    "verb": "argue",
+    "forms": {
+      "base": "argue",
+      "third_person": "argues",
+      "past": "argued",
+      "ing": "arguing",
+      "past_participle": "argued"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "argumentation",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"argue\" that reduces claim strength."
+      },
+      {
+        "verb": "propose",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"argue\" that reduces claim strength."
+      },
+      {
+        "verb": "maintain",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"argue\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"argue\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The authors argue that..."
+    ],
+    "original_example": "The study argues the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-047-claim",
+    "verb": "claim",
+    "forms": {
+      "base": "claim",
+      "third_person": "claims",
+      "past": "claimed",
+      "ing": "claiming",
+      "past_participle": "claimed"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "author position",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "state",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"claim\" that reduces claim strength."
+      },
+      {
+        "verb": "argue",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"claim\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"claim\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"claim\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study claims that..."
+    ],
+    "original_example": "The study claims the issue.",
+    "warning": "\"claim\" can sound skeptical or distancing.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-048-maintain",
+    "verb": "maintain",
+    "forms": {
+      "base": "maintain",
+      "third_person": "maintains",
+      "past": "maintained",
+      "ing": "maintaining",
+      "past_participle": "maintained"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "author position",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "argue",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"maintain\" that reduces claim strength."
+      },
+      {
+        "verb": "state",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"maintain\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"maintain\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"maintain\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study maintains that..."
+    ],
+    "original_example": "The study maintains the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-049-propose",
+    "verb": "propose",
+    "forms": {
+      "base": "propose",
+      "third_person": "proposes",
+      "past": "proposed",
+      "ing": "proposing",
+      "past_participle": "proposed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "argumentation",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"propose\" that reduces claim strength."
+      },
+      {
+        "verb": "argue",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"propose\" that reduces claim strength."
+      },
+      {
+        "verb": "put forward",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"propose\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"propose\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study proposes that..."
+    ],
+    "original_example": "The study proposes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-050-contend",
+    "verb": "contend",
+    "forms": {
+      "base": "contend",
+      "third_person": "contends",
+      "past": "contended",
+      "ing": "contending",
+      "past_participle": "contended"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "argumentation",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "argue",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"contend\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"contend\" that reduces claim strength."
+      },
+      {
+        "verb": "maintain",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"contend\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "assert",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Stronger alternative to \"contend\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study contends that..."
+    ],
+    "original_example": "The study contends the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-051-assert",
+    "verb": "assert",
+    "forms": {
+      "base": "assert",
+      "third_person": "asserts",
+      "past": "asserted",
+      "ing": "asserting",
+      "past_participle": "asserted"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "author position",
+    "best_sections": [
+      "Literature",
+      "Discussion",
+      "APA/Style"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "state",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"assert\" that reduces claim strength."
+      },
+      {
+        "verb": "argue",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"assert\" that reduces claim strength."
+      },
+      {
+        "verb": "claim",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion",
+          "APA/Style"
+        ],
+        "explanation": "Safer alternative to \"assert\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [],
+    "common_patterns": [
+      "The study asserts that..."
+    ],
+    "original_example": "The study asserts the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-052-question",
+    "verb": "question",
+    "forms": {
+      "base": "question",
+      "third_person": "questions",
+      "past": "questioned",
+      "ing": "questioning",
+      "past_participle": "questioned"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "critical stance",
+    "best_sections": [
+      "Literature",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "challenge",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"question\" that reduces claim strength."
+      },
+      {
+        "verb": "critique",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"question\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"question\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "reject",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"question\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study questions that..."
+    ],
+    "original_example": "The study questions the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-053-challenge",
+    "verb": "challenge",
+    "forms": {
+      "base": "challenge",
+      "third_person": "challenges",
+      "past": "challenged",
+      "ing": "challenging",
+      "past_participle": "challenged"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "critical stance",
+    "best_sections": [
+      "Literature",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "question",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"challenge\" that reduces claim strength."
+      },
+      {
+        "verb": "critique",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"challenge\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"challenge\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "oppose",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"challenge\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study challenges that..."
+    ],
+    "original_example": "The study challenges the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-054-criticize",
+    "verb": "criticize",
+    "forms": {
+      "base": "criticize",
+      "third_person": "criticizes",
+      "past": "criticized",
+      "ing": "criticizing",
+      "past_participle": "criticized"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "critical stance",
+    "best_sections": [
+      "Literature",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "critique",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"criticize\" that reduces claim strength."
+      },
+      {
+        "verb": "question",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"criticize\" that reduces claim strength."
+      },
+      {
+        "verb": "challenge",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"criticize\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "reject",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"criticize\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study criticizes that..."
+    ],
+    "original_example": "The study criticizes the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-055-critique",
+    "verb": "critique",
+    "forms": {
+      "base": "critique",
+      "third_person": "critiques",
+      "past": "critiqued",
+      "ing": "critiquing",
+      "past_participle": "critiqued"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "critical stance",
+    "best_sections": [
+      "Literature",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "evaluate",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"critique\" that reduces claim strength."
+      },
+      {
+        "verb": "question",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"critique\" that reduces claim strength."
+      },
+      {
+        "verb": "examine",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"critique\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "criticize",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"critique\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study critiques that..."
+    ],
+    "original_example": "The study critiques the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-056-support",
+    "verb": "support",
+    "forms": {
+      "base": "support",
+      "third_person": "supports",
+      "past": "supported",
+      "ing": "supporting",
+      "past_participle": "supported"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "argumentation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"support\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"support\" that reduces claim strength."
+      },
+      {
+        "verb": "align with",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"support\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "confirm",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"support\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study supports that..."
+    ],
+    "original_example": "The study supports the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-057-oppose",
+    "verb": "oppose",
+    "forms": {
+      "base": "oppose",
+      "third_person": "opposes",
+      "past": "opposed",
+      "ing": "opposing",
+      "past_participle": "opposed"
+    },
+    "strength_level": "strong",
+    "certainty_level": "confident",
+    "stance": "critical stance",
+    "best_sections": [
+      "Literature",
+      "Discussion"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risky for qualitative, interview-based, perception-based, or self-reported data unless evidence is direct and strong.",
+    "safer_alternatives": [
+      {
+        "verb": "question",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"oppose\" that reduces claim strength."
+      },
+      {
+        "verb": "challenge",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"oppose\" that reduces claim strength."
+      },
+      {
+        "verb": "contrast with",
+        "risk": "Safe",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Safer alternative to \"oppose\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "reject",
+        "risk": "Review carefully",
+        "sections": [
+          "Literature",
+          "Discussion"
+        ],
+        "explanation": "Stronger alternative to \"oppose\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study opposes that..."
+    ],
+    "original_example": "The study opposes the issue.",
+    "warning": "Use stronger reporting verbs only when the evidence type supports a strong claim.",
+    "risk_level": "Review carefully"
+  },
+  {
+    "id": "rv-058-appear",
+    "verb": "appear",
+    "forms": {
+      "base": "appear",
+      "third_person": "appears",
+      "past": "appeared",
+      "ing": "appearing",
+      "past_participle": "appeared"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "seem",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"appear\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"appear\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"appear\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"appear\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study appears that..."
+    ],
+    "original_example": "The study appears the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-059-seem",
+    "verb": "seem",
+    "forms": {
+      "base": "seem",
+      "third_person": "seems",
+      "past": "seemed",
+      "ing": "seeming",
+      "past_participle": "seemed"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "appear",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"seem\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"seem\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"seem\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"seem\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study seems that..."
+    ],
+    "original_example": "The study seems the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-060-tend",
+    "verb": "tend",
+    "forms": {
+      "base": "tend",
+      "third_person": "tends",
+      "past": "tended",
+      "ing": "tending",
+      "past_participle": "tended"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "appear",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"tend\" that reduces claim strength."
+      },
+      {
+        "verb": "seem",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"tend\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"tend\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"tend\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study tends that..."
+    ],
+    "original_example": "The study tends the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-061-point-to",
+    "verb": "point to",
+    "forms": {
+      "base": "point to",
+      "third_person": "points to",
+      "past": "pointed to",
+      "ing": "pointing to",
+      "past_participle": "pointed to"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"point to\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"point to\" that reduces claim strength."
+      },
+      {
+        "verb": "imply",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"point to\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"point to\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study points to that..."
+    ],
+    "original_example": "The study points to the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-062-may-show",
+    "verb": "may show",
+    "forms": {
+      "base": "may show"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "may indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"may show\" that reduces claim strength."
+      },
+      {
+        "verb": "may suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"may show\" that reduces claim strength."
+      },
+      {
+        "verb": "appear to show",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"may show\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"may show\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study may show that..."
+    ],
+    "original_example": "The study may show the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-063-may-indicate",
+    "verb": "may indicate",
+    "forms": {
+      "base": "may indicate"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "may suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"may indicate\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"may indicate\" that reduces claim strength."
+      },
+      {
+        "verb": "indicate",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"may indicate\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"may indicate\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study may indicate that..."
+    ],
+    "original_example": "The study may indicate the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-064-appear-to-suggest",
+    "verb": "appear to suggest",
+    "forms": {
+      "base": "appear to suggest",
+      "third_person": "appears to suggest",
+      "past": "appeared to suggest",
+      "ing": "appearing to suggest"
+    },
+    "strength_level": "cautious",
+    "certainty_level": "tentative",
+    "stance": "interpretation",
+    "best_sections": [
+      "Discussion",
+      "Conclusion"
+    ],
+    "safe_use": "Use for tentative, qualitative, perception-based, or self-reported data.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "seem to suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"appear to suggest\" that reduces claim strength."
+      },
+      {
+        "verb": "may suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"appear to suggest\" that reduces claim strength."
+      },
+      {
+        "verb": "suggest",
+        "risk": "Safe",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Safer alternative to \"appear to suggest\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Discussion",
+          "Conclusion"
+        ],
+        "explanation": "Stronger alternative to \"appear to suggest\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study appears to suggest that..."
+    ],
+    "original_example": "The study appears to suggest the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-065-use",
+    "verb": "use",
+    "forms": {
+      "base": "use",
+      "third_person": "uses",
+      "past": "used",
+      "ing": "using",
+      "past_participle": "used"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "employ",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"use\" that reduces claim strength."
+      },
+      {
+        "verb": "apply",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"use\" that reduces claim strength."
+      },
+      {
+        "verb": "adopt",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"use\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"use\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study uses that..."
+    ],
+    "original_example": "The study uses the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-066-employ",
+    "verb": "employ",
+    "forms": {
+      "base": "employ",
+      "third_person": "employs",
+      "past": "employed",
+      "ing": "employing",
+      "past_participle": "employed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "use",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"employ\" that reduces claim strength."
+      },
+      {
+        "verb": "apply",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"employ\" that reduces claim strength."
+      },
+      {
+        "verb": "adopt",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"employ\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"employ\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study employs that..."
+    ],
+    "original_example": "The study employs the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-067-adopt",
+    "verb": "adopt",
+    "forms": {
+      "base": "adopt",
+      "third_person": "adopts",
+      "past": "adopted",
+      "ing": "adopting",
+      "past_participle": "adopted"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "use",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"adopt\" that reduces claim strength."
+      },
+      {
+        "verb": "employ",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"adopt\" that reduces claim strength."
+      },
+      {
+        "verb": "apply",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"adopt\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "establish",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"adopt\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study adopts that..."
+    ],
+    "original_example": "The study adopts the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-068-apply",
+    "verb": "apply",
+    "forms": {
+      "base": "apply",
+      "third_person": "applies",
+      "past": "applied",
+      "ing": "applying",
+      "past_participle": "applied"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "use",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"apply\" that reduces claim strength."
+      },
+      {
+        "verb": "employ",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"apply\" that reduces claim strength."
+      },
+      {
+        "verb": "implement",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"apply\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"apply\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study applies that..."
+    ],
+    "original_example": "The study applies the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-069-implement",
+    "verb": "implement",
+    "forms": {
+      "base": "implement",
+      "third_person": "implements",
+      "past": "implemented",
+      "ing": "implementing",
+      "past_participle": "implemented"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "apply",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"implement\" that reduces claim strength."
+      },
+      {
+        "verb": "use",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"implement\" that reduces claim strength."
+      },
+      {
+        "verb": "carry out",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"implement\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"implement\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study implements that..."
+    ],
+    "original_example": "The study implements the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-070-conduct",
+    "verb": "conduct",
+    "forms": {
+      "base": "conduct",
+      "third_person": "conducts",
+      "past": "conducted",
+      "ing": "conducting",
+      "past_participle": "conducted"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "carry out",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"conduct\" that reduces claim strength."
+      },
+      {
+        "verb": "undertake",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"conduct\" that reduces claim strength."
+      },
+      {
+        "verb": "perform",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"conduct\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"conduct\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study conducts that..."
+    ],
+    "original_example": "The study conducts the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-071-carry-out",
+    "verb": "carry out",
+    "forms": {
+      "base": "carry out",
+      "third_person": "carries out",
+      "past": "carried out",
+      "ing": "carrying out",
+      "past_participle": "carried out"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "conduct",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"carry out\" that reduces claim strength."
+      },
+      {
+        "verb": "undertake",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"carry out\" that reduces claim strength."
+      },
+      {
+        "verb": "perform",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"carry out\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"carry out\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study carries out that..."
+    ],
+    "original_example": "The study carries out the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-072-collect",
+    "verb": "collect",
+    "forms": {
+      "base": "collect",
+      "third_person": "collects",
+      "past": "collected",
+      "ing": "collecting",
+      "past_participle": "collected"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "gather",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"collect\" that reduces claim strength."
+      },
+      {
+        "verb": "obtain",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"collect\" that reduces claim strength."
+      },
+      {
+        "verb": "record",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"collect\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"collect\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study collects that..."
+    ],
+    "original_example": "The study collects the issue.",
+    "warning": "",
+    "risk_level": "Safe"
+  },
+  {
+    "id": "rv-073-transcribe",
+    "verb": "transcribe",
+    "forms": {
+      "base": "transcribe",
+      "third_person": "transcribes",
+      "past": "transcribed",
+      "ing": "transcribing",
+      "past_participle": "transcribed"
+    },
+    "strength_level": "neutral",
+    "certainty_level": "moderate",
+    "stance": "method description",
+    "best_sections": [
+      "Method",
+      "Findings",
+      "TR Dizin"
+    ],
+    "safe_use": "Use when the sentence reports, describes, or interprets evidence without overstating it.",
+    "risky_use": "Risk increases if the replacement makes the evidence sound more certain than it is.",
+    "safer_alternatives": [
+      {
+        "verb": "record",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"transcribe\" that reduces claim strength."
+      },
+      {
+        "verb": "prepare",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"transcribe\" that reduces claim strength."
+      },
+      {
+        "verb": "document",
+        "risk": "Safe",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Safer alternative to \"transcribe\" that reduces claim strength."
+      }
+    ],
+    "stronger_alternatives": [
+      {
+        "verb": "prove",
+        "risk": "Review carefully",
+        "sections": [
+          "Method",
+          "Findings",
+          "TR Dizin"
+        ],
+        "explanation": "Stronger alternative to \"transcribe\"; check evidence before using."
+      }
+    ],
+    "common_patterns": [
+      "The study transcribes that..."
+    ],
+    "original_example": "The study transcribes the issue.",
+    "warning": "",
+    "risk_level": "Safe"
   }
 ]
