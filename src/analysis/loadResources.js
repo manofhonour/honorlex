@@ -203,7 +203,14 @@ function validateConnectorBank(value) {
   if (!value || typeof value.types !== "object" || !Array.isArray(value.warnings) || !Array.isArray(value.overuse)) {
     return fail("connectorBank requires types, warnings, and overuse.");
   }
-  const warnings = validateUniqueIds(value.warnings, "connectorBank.warnings");
+  const warnings = [...validateUniqueIds(value.warnings, "connectorBank.warnings")];
+  if (value.entries) warnings.push(...validateUniqueIds(value.entries, "connectorBank.entries"));
+  for (const entry of value.entries || []) {
+    requireFields(entry, ["id", "connector", "category", "connector_type", "position", "punctuation_rule", "grammar_rule", "best_sections", "example", "risk_level"], "connectorBank", warnings);
+    validateAllowed(entry.risk_level, ALLOWED_RISK_LEVELS, `${entry.id}.risk_level`, warnings);
+    validateSections(entry.best_sections || [], `${entry.id}.best_sections`, warnings);
+    validateAllowed(entry.connector_type, ["coordinating_conjunction", "subordinating_conjunction", "linking_adverbial", "prepositional_connector", "phrase_connector"], `${entry.id}.connector_type`, warnings);
+  }
   for (const item of value.warnings) {
     requireFields(item, ["id", "pattern", "risk", "explanation"], "connectorBank", warnings);
     validateAllowed(item.risk, ALLOWED_RISK_LEVELS, `${item.id}.risk`, warnings);
@@ -276,13 +283,47 @@ function normalizeResources(resources) {
     reportingVerbBank,
     reportingVerbsByLemma: Object.fromEntries(reportingVerbBank.map((entry) => [entry.verb, entry.replacements])),
     reportingVerbsByForm: createReportingVerbFormMap(reportingVerbBank),
-    connectorBank: resources.connectorBank,
+    connectorBank: normalizeConnectorBank(resources.connectorBank),
     cautiousWordingBank: resources.cautiousWordingBank,
     domainLexicon: resources.domainLexicon,
     phrasePatterns: resources.phrasePatterns,
     rewriteRules: resources.rewriteRules,
     personalBlacklistDefault: resources.personalBlacklistDefault
   };
+}
+
+function normalizeConnectorBank(bank) {
+  const entries = bank.entries || Object.entries(bank.types || {}).flatMap(([category, connectors], categoryIndex) =>
+    connectors.map((connector, connectorIndex) => ({
+      id: `conn-${categoryIndex}-${connectorIndex}`,
+      connector,
+      category,
+      connector_type: "linking_adverbial",
+      position: "sentence_start",
+      punctuation_rule: "check punctuation",
+      grammar_rule: "check grammar fit",
+      best_sections: ["General"],
+      example: "",
+      avoid_when: "",
+      warning: "",
+      risk_level: "Safe"
+    }))
+  );
+  return {
+    ...bank,
+    entries,
+    types: bank.types || Object.fromEntries(Object.entries(groupConnectorsByCategory(entries))),
+    warnings: bank.warnings || [],
+    overuse: bank.overuse || []
+  };
+}
+
+function groupConnectorsByCategory(entries) {
+  return entries.reduce((memo, entry) => {
+    memo[entry.category] = memo[entry.category] || [];
+    memo[entry.category].push(entry.connector);
+    return memo;
+  }, {});
 }
 
 function normalizeCollocationBank(bank) {
