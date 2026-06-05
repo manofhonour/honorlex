@@ -20,6 +20,7 @@ export function render(app, state) {
           <div class="mode-row">
             ${FOCUS_MODES.map((mode) => `<button class="${state.focus === mode ? "active" : ""}" data-focus="${mode}">${mode}</button>`).join("")}
           </div>
+          ${state.protectedRanges.length ? `<div class="protected-warning">Protected academic content was detected and preserved.</div>` : ""}
           <textarea id="editor" spellcheck="false">${escapeHtml(state.text)}</textarea>
           <div class="editor-footer">
             <span>${countWords(state.text)} words</span>

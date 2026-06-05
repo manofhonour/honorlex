@@ -134,6 +134,15 @@ h1 {
   border-color: var(--forest);
 }
 
+.protected-warning {
+  border-bottom: 1px solid #cde4d8;
+  padding: 10px 16px;
+  color: var(--forest);
+  background: #e9f7ef;
+  font-size: 13px;
+  font-weight: 800;
+}
+
 textarea {
   width: 100%;
   min-height: 100%;

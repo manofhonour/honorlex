@@ -97,7 +97,7 @@ function validateProtectedTerms(value) {
   if (!value || !Array.isArray(value.exact) || !Array.isArray(value.patterns)) {
     return fail("protectedTerms requires exact and patterns arrays.");
   }
-  return ok(validateUniqueIds(value.patterns, "protectedTerms.patterns", "label"));
+  return ok(validateUniqueIds(value.patterns, "protectedTerms.patterns"));
 }
 
 function validateSynonymCore(value) {
